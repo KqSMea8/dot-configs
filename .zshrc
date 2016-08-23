@@ -89,7 +89,7 @@ source $ZSH/oh-my-zsh.sh
 alias code="cd ~/code"
 alias e="emacsclient -c"
 alias vpn="cd ~/MEGA/bin/michael.hoogkamer_conf"
-alias p="cd ~/MEGA/code/"
+alias prog"cd ~/MEGA/code/"
 alias tor="cd ~/bin/tor-browser_en-US/"
 alias bin="cd ~/MEGA/bin/"
 alias ywriter="wine /home/michael/bin/yWriter5/bin/yWriter5.exe"

@@ -86,10 +86,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias code="cd ~/code"
+alias c="cd ~/code"
 alias e="emacsclient -c"
 alias vpn="cd ~/MEGA/bin/michael.hoogkamer_conf"
-alias prog"cd ~/MEGA/code/"
+alias p"cd ~/MEGA/code/"
 alias tor="cd ~/bin/tor-browser_en-US/"
 alias bin="cd ~/MEGA/bin/"
 alias ywriter="wine /home/michael/bin/yWriter5/bin/yWriter5.exe"

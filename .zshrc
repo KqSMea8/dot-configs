@@ -87,6 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias c="cd ~/code"
+alias g="cd ~/code/git"
 alias e="emacsclient -c"
 alias vpn="cd ~/MEGA/bin/michael.hoogkamer_conf"
 alias p"cd ~/MEGA/code/"

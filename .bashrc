@@ -212,3 +212,5 @@ alias vpn='cd /home/michael/MEGA/bin/michael.hoogkamer_conf'
 alias tor='cd /home/michael/bin/tor-browser_en-US'
 alias nm='cd /home/michael/MEGA/bin'
 alias e='emacsclient -c'
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

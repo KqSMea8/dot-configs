@@ -214,3 +214,5 @@ alias nm='cd /home/michael/MEGA/bin'
 alias e='emacsclient -c'
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

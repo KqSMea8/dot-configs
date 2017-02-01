@@ -54,7 +54,7 @@ plugins=(git)
 
 # User configuration
 
-  export PATH="/home/michael/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/michael/Copy/bin"
+  export PATH="/home/michael/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/michael/MEGA/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
   export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_92

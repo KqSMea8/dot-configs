@@ -98,9 +98,9 @@ alias b="cd ~/MEGA/bin/"
 alias ywriter="wine /home/michael/bin/yWriter5/bin/yWriter5.exe"
 alias betty="~/code/betty/main.rb"
 alias franz="/home/michael/bin/Franz-linux-x64-4.0.4/Franz"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
 if [[ $TERMINIX_ID ]]; then
         source /etc/profile.d/vte.sh

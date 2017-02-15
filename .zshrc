@@ -5,8 +5,9 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="robbyrussell"
-ZSH_THEME="cordial"
+ZSH_THEME="robbyrussell"
+# ZSH_THEME="cordial"
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -54,7 +55,7 @@ plugins=(git)
 
 # User configuration
 
-  export PATH="/home/michael/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/michael/MEGA/bin"
+  export PATH="/home/michael/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/michael/MEGA/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
   export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_92
@@ -106,4 +107,4 @@ if [[ $TERMINIX_ID ]]; then
         source /etc/profile.d/vte.sh
 fi
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

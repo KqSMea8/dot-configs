@@ -5,8 +5,8 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
-#ZSH_THEME="mh"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="mh"
 #ZSH_THEME="lambda"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -87,12 +87,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias c="cd ~/code"
+alias s="cd ~/code"
 alias g="cd ~/code/git"
 alias e="emacsclient -c"
 alias et="emacsclient -t"
 alias vpn="cd ~/MEGA/bin/michael.hoogkamer_conf"
-alias p="cd ~/MEGA/code/"
+alias c="cd ~/MEGA/code/"
 alias m="cd ~/MEGA"
 alias tor="cd ~/bin/tor-browser_en-US/"
 alias b="cd ~/MEGA/bin/"

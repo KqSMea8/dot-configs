@@ -64,7 +64,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_MESSAGES="C"
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -97,6 +98,8 @@ alias m="cd ~/MEGA"
 alias t="cd ~/bin/tor-browser_en-US/"
 alias b="cd ~/MEGA/bin/"
 alias w="cd ~/MEGA/myWritings"
+alias ll='LC_COLLATE=C ls -alF'
+
 #export PATH="$HOME/.rbenv/bin:$PATH"
 #eval "$(rbenv init -)"
 #export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"

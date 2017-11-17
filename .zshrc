@@ -101,6 +101,12 @@ alias b="cd ~/MEGA/bin/"
 alias w="cd ~/MEGA/myWritings"
 alias ll='LC_COLLATE=C ls -alF'
 
+alias ss="systemctl suspend"
+alias sa="systemctl hybrid-sleep"
+alias sh="systemctl hibernate"
+alias l="physlock"
+alias il="i3lock -c 000000 -n"
+
 #export PATH="$HOME/.rbenv/bin:$PATH"
 #eval "$(rbenv init -)"
 #export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"

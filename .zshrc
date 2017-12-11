@@ -104,8 +104,9 @@ alias ll='LC_COLLATE=C ls -alF'
 alias ss="systemctl suspend"
 alias sa="systemctl hybrid-sleep"
 alias sh="systemctl hibernate"
-alias l="physlock"
-alias il="i3lock -c 000000 -n"
+#alias l="physlock"
+#alias il="i3lock -c 000000 -n"
+alias gpsmaster="java -jar bin/GpsMaster_0.63.00.jar"
 
 #export PATH="$HOME/.rbenv/bin:$PATH"
 #eval "$(rbenv init -)"

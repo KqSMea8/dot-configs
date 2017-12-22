@@ -101,9 +101,9 @@ alias b="cd ~/MEGA/bin/"
 alias w="cd ~/MEGA/myWritings"
 alias ll='LC_COLLATE=C ls -alF'
 
-alias ss="systemctl suspend"
+alias ss="~/bin/suspend.sh"
 alias sa="systemctl hybrid-sleep"
-alias sh="systemctl hibernate"
+alias sh="~/bin/hibernate.sh"
 #alias l="physlock"
 #alias il="i3lock -c 000000 -n"
 alias gpsmaster="java -jar bin/GpsMaster_0.63.00.jar"

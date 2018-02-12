@@ -58,7 +58,8 @@ plugins=(git)
   export PATH="/home/michael/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/michael/MEGA/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
-  export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_92
+  export JAVA_HOME=/usr/lib/jvm/default
+#  export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_92
   export PATH=$PATH:$JAVA_HOME/bin
 
 source $ZSH/oh-my-zsh.sh

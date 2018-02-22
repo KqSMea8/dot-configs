@@ -108,8 +108,6 @@ alias ss="systemctl suspend"
 alias sh="systemctl hibernate"
 alias sa="systemctl hybrid-sleep"
 
-#alias l="physlock"
-#alias il="i3lock -c 000000 -n"
 alias gpsmaster="java -jar bin/GpsMaster_0.63.00.jar"
 
 #export PATH="$HOME/.rbenv/bin:$PATH"
@@ -124,4 +122,4 @@ fi
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH=$PATH{}:~/Android/Sdk/tools:~/Android/Sdk/platform-tools
 
-setterm -blank 5
+#setterm -blank 5

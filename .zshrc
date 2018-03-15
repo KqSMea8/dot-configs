@@ -105,7 +105,7 @@ alias ll='LC_COLLATE=C ls -alF'
 #alias ss="~/bin/suspend.sh"
 #alias sh="~/bin/hibernate.sh"
 alias ss="systemctl suspend"
-alias sh="systemctl hibernate"
+#alias sh="systemctl hibernate"
 alias sa="systemctl hybrid-sleep"
 
 alias gpsmaster="java -jar bin/GpsMaster_0.63.00.jar"

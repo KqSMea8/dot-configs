@@ -1,0 +1,5 @@
+# auto view using w3m
+# text/html; w3m -I %{charset} -T text/html; copiousoutput;
+
+# auto view using elinks
+text/html; elinks -dump ; copiousoutput;

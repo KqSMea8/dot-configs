@@ -1,0 +1,44 @@
+# PATHS
+set folder           = ~/mail                  # mailbox location
+set alias_file       = ~/.mutt/aliases         # where to store aliases
+set header_cache     = ~/.mutt/cache/headers   # where to store headers
+set message_cachedir = ~/.mutt/cache/bodies    # where to store bodies
+set tmpdir           = ~/.mutt/cache/temp      # where to keep temp files
+set certificate_file = ~/.mutt/certificates    # where to store certs
+set mailcap_path     = ~/.mutt/mailcap         # entries for filetypes
+set signature        = ~/.signature            # my signature file
+
+# GMAIL
+set ssl_starttls=yes
+set ssl_force_tls=yes
+set imap_user = 'michael.hoogkamer@gmail.com'
+set imap_pass = 'rafmgidjapafubtj'
+set from='$realname <michael.hoogkamer@gmail.com>'
+set realname='Michael Hoogkamer'
+set folder = imaps://imap.gmail.com/
+set spoolfile = imaps://imap.gmail.com/INBOX
+set postponed="imaps://imap.gmail.com/[Google Mail]/Drafts"
+set smtp_url = 'smtps://michael.hoogkamer@smtp.gmail.com:465/'
+set smtp_pass = 'rafmgidjapafubtj'
+set move = no
+set imap_keepalive = 900
+set mbox="imaps://imap.gmail.com/[Google Mail]/All Mail"
+
+# EDITOR
+set editor="vim -c 'set spell spelllang=en,nl,fi'"
+#set editor="emacsclient -t"
+
+# HTML EMAIL
+auto_view text/html					# view html automatically
+alternative_order text/plain text/enriched text/html # prefer plain text
+
+# THEME
+source ~/.mutt/colors
+
+# NEOMUTT SIDEBAR
+set sidebar_visible=yes
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set sidebar_sort_method = 'alpha'
+set mail_check_stats
+set imap_check_subscribed
+

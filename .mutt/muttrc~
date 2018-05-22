@@ -1,0 +1,42 @@
+# GMAIL
+set ssl_starttls=yes
+set ssl_force_tls=yes
+set imap_user = 'michael.hoogkamer@gmail.com'
+set imap_pass = 'rafmgidjapafubtj'
+set from='$realname <michael.hoogkamer@gmail.com>'
+set realname='Michael Hoogkamer'
+set folder = imaps://imap.gmail.com/
+set spoolfile = imaps://imap.gmail.com/INBOX
+set postponed="imaps://imap.gmail.com/[Google Mail]/Drafts"
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+set smtp_url = 'smtps://michael.hoogkamer@smtp.gmail.com:465/'
+set smtp_pass = 'rafmgidjapafubtj'
+set move = no
+set imap_keepalive = 900
+
+# EDITOR
+set editor="vim -c 'set spell spelllang=en,nl,fi'"
+#set editor="emacsclient -t"
+
+# HTML EMAIL
+auto_view text/html					# view html automatically
+alternative_order text/plain text/enriched text/html # prefer plain text
+set mailcap_path = ~/.mutt/mailcap
+macro attach 'V' "<pipe-entry>cat >~/.cache/mutt/mail.html && $BROWSER ~/.cache/mutt/mail.html && rm ~/.cache/mutt/mail.html<enter>"
+
+# THEME
+source ~/.mutt/colors
+
+# NEOMUTT SIDEBAR
+set sidebar_visible=yes
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set mail_check_stats
+set imap_check_subscribed
+
+# Gmail shortcuts
+#macro index,pager y "<save-message>=[Google Mail]/All Mail<enter><enter>" "Archive"
+macro index \' "<tag-pattern>~R !~D !~F<enter>\
+<tag-prefix><save-message>+[Gmail]/All <enter>" \
+"Archive"

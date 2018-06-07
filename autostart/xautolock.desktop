@@ -1,6 +1,11 @@
 [Desktop Entry]
-Name=xautolock
-Comment=xautolock -detectsleep -time 5 -locker "/home/ruben/.local/bin/lockscreen off" -nowlocker "/home/ruben/.local/bin/lockscreen"
 Type=Application
-Exec=
-Hidden=false
+Version=1.0
+GenericName=screenlocker
+Name=xautolock
+Comment=
+Exec=xautolock -detectsleep -time 1 -locker "/home/michael/MEGA/bin/i3lockscreen off" -nowlocker "/home/michael/MEGA/bin/i3lockscreen"
+Icon=xautolock
+Terminal=false
+Categories=System;
+StartupNotify=false

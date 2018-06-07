@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=xautolock
+Comment=xautolock -detectsleep -time 5 -locker "/home/ruben/.local/bin/lockscreen off" -nowlocker "/home/ruben/.local/bin/lockscreen"
+Type=Application
+Exec=
+Hidden=false

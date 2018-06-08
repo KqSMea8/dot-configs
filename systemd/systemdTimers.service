@@ -1,0 +1,7 @@
+[Unit]
+Description=rsync configs and scripts
+
+[Service]
+Type=oneshot
+ExecStart=/home/michael/MEGA/bin/systemdTimers.sh
+

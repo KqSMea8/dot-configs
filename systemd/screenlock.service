@@ -1,12 +1,12 @@
 [Unit]
-Description=Lock X session
-Before=sleep.target
+Description=User suspend actions
 
 [Service]
 User=michael
-Type=forking
+Type=simple
 Environment=DISPLAY=:0
-ExecStart=/usr/bin/xautolock -locknow
+ExecStart=/usr/bin/physlock
 
 [Install]
 WantedBy=sleep.target
+

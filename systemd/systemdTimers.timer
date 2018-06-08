@@ -1,0 +1,9 @@
+[Unit]
+Description=Execute backup every day 3 hours
+
+[Timer]
+OnCalendar=*-*-* 00/6:00:00
+Unit=systemdTimers.service
+
+[Install]
+WantedBy=timers.target

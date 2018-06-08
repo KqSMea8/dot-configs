@@ -1,0 +1,9 @@
+[Unit]
+Description=Execute backup every day 3 hours
+
+[Timer]
+OnCalendar=*-*-* 00/3:05:00
+Unit=configScripts.service
+
+[Install]
+WantedBy=timers.target

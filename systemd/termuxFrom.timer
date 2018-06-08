@@ -1,0 +1,9 @@
+[Unit]
+Description=Execute backup every day every hour
+
+[Timer]
+OnCalendar=*-*-* 00/1:30:00
+Unit=termuxFrom.service
+
+[Install]
+WantedBy=timers.target

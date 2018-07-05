@@ -1,0 +1,7 @@
+[Unit]
+Description=rsync a few important folders to 320GB drive
+
+[Service]
+Type=oneshot
+ExecStart=/home/michael/MEGA/bin/backup.sh
+

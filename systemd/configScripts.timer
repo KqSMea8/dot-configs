@@ -3,6 +3,7 @@ Description=Execute backup every day 3 hours
 
 [Timer]
 OnCalendar=*-*-* 00/3:05:00
+Persistent=true
 Unit=configScripts.service
 
 [Install]

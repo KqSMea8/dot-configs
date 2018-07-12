@@ -3,6 +3,7 @@ Description=Execute backup ce per day
 
 [Timer]
 OnCalendar=*-*-* 00/4:00:00
+Persistent=true
 Unit=backup.service
 
 [Install]

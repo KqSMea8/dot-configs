@@ -3,6 +3,7 @@ Description=Execute backup every day 3 hours
 
 [Timer]
 OnCalendar=*-*-* 00/6:00:00
+Persistent=true
 Unit=systemdTimers.service
 
 [Install]

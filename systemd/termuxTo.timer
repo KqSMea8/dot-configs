@@ -3,6 +3,7 @@ Description=Execute backup every day every hour
 
 [Timer]
 OnCalendar=*-*-* 00/1:35:00
+Persistent=true
 Unit=termuxTo.service
 
 [Install]

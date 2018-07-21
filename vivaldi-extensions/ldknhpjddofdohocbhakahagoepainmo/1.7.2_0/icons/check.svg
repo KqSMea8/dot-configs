@@ -1,0 +1,11 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 11 11"
+>
+  <path
+    d="M 1,5.5 4.75,8.25 9.5,1.75"
+    fill="none"
+    stroke="rgba(0, 0, 0, 0.7)"
+    stroke-width="3"
+  />
+</svg>

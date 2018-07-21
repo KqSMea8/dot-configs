@@ -1,0 +1,110 @@
+{
+   "12_hour": {
+      "message": "12-hour"
+   },
+   "24_hour": {
+      "message": "24-hour"
+   },
+   "change_theme_daytime": {
+      "message": "Change theme by time of day"
+   },
+   "dark": {
+      "message": "Dark"
+   },
+   "date_format": {
+      "message": "{weekday}, {month} {day}"
+   },
+   "day_friday": {
+      "message": "Friday"
+   },
+   "day_monday": {
+      "message": "Monday"
+   },
+   "day_saturday": {
+      "message": "Saturday"
+   },
+   "day_sunday": {
+      "message": "Sunday"
+   },
+   "day_thursday": {
+      "message": "Thursday"
+   },
+   "day_tuesday": {
+      "message": "Tuesday"
+   },
+   "day_wednesday": {
+      "message": "Wednesday"
+   },
+   "extension_description": {
+      "message": "Minimalist New Tab page."
+   },
+   "extension_name": {
+      "message": "BWNT - New Tab"
+   },
+   "light": {
+      "message": "Light"
+   },
+   "lightblue": {
+      "message": "Light blue"
+   },
+   "material": {
+      "message": "Material"
+   },
+   "month_april": {
+      "message": "April"
+   },
+   "month_august": {
+      "message": "August"
+   },
+   "month_december": {
+      "message": "December"
+   },
+   "month_february": {
+      "message": "February"
+   },
+   "month_january": {
+      "message": "January"
+   },
+   "month_july": {
+      "message": "July"
+   },
+   "month_june": {
+      "message": "June"
+   },
+   "month_march": {
+      "message": "March"
+   },
+   "month_may": {
+      "message": "May"
+   },
+   "month_november": {
+      "message": "November"
+   },
+   "month_october": {
+      "message": "October"
+   },
+   "month_september": {
+      "message": "September"
+   },
+   "night": {
+      "message": "Night"
+   },
+   "options_title": {
+      "message": "New Tab Options"
+   },
+   "select_image": {
+      "message": "Select an image"
+   },
+   "show_date": {
+      "message": "Show date"
+   },
+   "time_am": {
+      "message": "am"
+   },
+   "time_pm": {
+      "message": "pm"
+   },
+   "use_bg_image": {
+      "message": "Use a background image"
+   }
+}

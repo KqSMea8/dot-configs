@@ -1,0 +1,32 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "ohmugin-tzmec@gmail.com"
+      }
+   },
+   "author": "extensioneer",
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "exclude_globs": [  ],
+      "include_globs": [ "*" ],
+      "js": [ "common.js", "script.js" ],
+      "matches": [ "http://torrentz2.eu/*", "https://torrentz2.eu/*", "http://torrentz2.me/*", "https://torrentz2.me/*", "http://torrentz2.is/*", "https://torrentz2.is/*", "http://torrentzwealmisr.onion/*", "https://torrentzwealmisr.onion/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Adds magnet links with trackers, movie ratings and more to Torrentz2 pages.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArkyJJbTq/EnXSTEja/3/JrFt+Oq7G9gYQ9Ovq416WkV7PUfkWqiCVbiQKY+/TT20FLp6YL31T44xZS7rPu+OoB5XWY9+tLVrMXJamDnku41Qap3RXzrThdUrax9eEwIjB8peKlahJrH9YHJrd2Tpeb8ONhe89TzCsEKVibXzOyHHT8byhFZtPrvYsiZnHXICLxvfrOGq+VsAf0qrB0rtkShXtvp8LU/QenOAXZKoTqUVQ8zdQrE/0MTLnQrFT1ulDo2ujeNxfDPEQXvDTCpr/MQnrpdyQzfI2WzebpJH8ko9DIsdYIoHc1vObjU6SK2mGBSJWZNZfCGk6mS2+YKuawIDAQAB",
+   "manifest_version": 2,
+   "name": "Torrentz2 Magnet Links +",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.2",
+   "web_accessible_resources": [ "icons/*" ]
+}

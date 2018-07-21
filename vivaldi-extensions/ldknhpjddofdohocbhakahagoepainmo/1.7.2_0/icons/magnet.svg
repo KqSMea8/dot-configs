@@ -1,0 +1,32 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+	viewBox="0 0 16 16"
+>
+	<defs>
+		<path
+			id="magnet"
+  		d="M3 3v6a1 1 0 0 0 10 0V2h-3v7a2 2 0 0 1-2 2 2 2 0 0 1-2-2V2H3z"
+  		vector-effect="non-scaling-stroke"
+		/>
+		<clipPath id="magnet-cp">
+		  <use xlink:href="#magnet"/>
+		</clipPath>
+	</defs>
+	<use
+		xlink:href="#magnet"
+  	fill="#ffb090"
+  	stroke="#d88264"
+  	stroke-width="2"
+  	paint-order="stroke"
+  />
+  <path fill="#f5dfd6" d="M3 2h3v3H3zm7 0h3v3h-3z" />
+  <use
+    xlink:href="#magnet"
+    clip-path="url(#magnet-cp)"
+    fill="transparent"
+    stroke="rgba(255, 255, 255, 0.1)"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+</svg>

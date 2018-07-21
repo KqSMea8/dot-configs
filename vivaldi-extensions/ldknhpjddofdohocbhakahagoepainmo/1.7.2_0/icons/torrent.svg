@@ -1,0 +1,59 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 16 16"
+>
+  <defs>
+    <path
+      id="base"
+      d="M3 2v12h10V4l-2-2z"
+      vector-effect="non-scaling-stroke"
+    />
+    <clipPath id="base-clip">
+      <use xlink:href="#base" />
+    </clipPath>
+    <path
+      id="arrow"
+      d="M6 5v3H4l4 5L12 8H10V5z"
+      vector-effect="non-scaling-stroke"
+    />
+    <clipPath id="arrow-clip">
+      <use xlink:href="#arrow" />
+    </clipPath>
+  </defs>
+  <use
+    xlink:href="#base"
+    fill="#4f80b2"
+    stroke="#336599"
+    stroke-width="2"
+    stroke-linejoin="round"
+    paint-order="stroke"
+  />
+  <use
+    xlink:href="#base"
+    clip-path="url(#base-clip)"
+    fill="transparent"
+    stroke="rgba(255, 255, 255, 0.1)"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+  <path
+    fill="#cadae9"
+    d="M13 4h-3V2h1z"
+  />
+  <use
+    xlink:href="#arrow"
+    stroke-width="2"
+    stroke="#336599"
+    fill="#dae6f2"
+    paint-order="stroke"
+    stroke-linejoin="round"
+  />
+  <use
+    xlink:href="#arrow"
+    clip-path="url(#arrow-clip)"
+    stroke-width="2"
+    stroke="rgba(255, 255, 255, 0.4)"
+    fill="transparent"
+  />
+</svg>

@@ -1,0 +1,39 @@
+.hnpost {
+  font-family: Verdana, Geneva, sans-serif;
+  font-variant: small-caps;
+  background-color: rgb(255, 102, 0);
+  text-align: center;
+  width: 232px;
+  margin: 0;
+}
+
+.hnpost__header {
+  margin: 20px 16px;
+}
+
+.hnpost__input,
+.hnpost__button {
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.hnpost__input {
+  padding: 6px 10px;
+  font-variant: small-caps;
+  border: none;
+}
+
+.hnpost__button {
+  display: block;
+  background-color: lightgrey;
+  padding: 6px 0;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
+.hnpost__input:focus,
+.hnpost__button:focus {
+  outline: none;
+}

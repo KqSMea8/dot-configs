@@ -1,0 +1,20 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 16 16"
+>
+  <defs>
+    <path
+      id="chevron"
+      d="M2 6 l6 6 l6 -6 l-1 -1 l-5 5 l-5 -5 z"
+      vector-effect="non-scaling-stroke"
+    />
+  </defs>
+    <use
+      xlink:href="#chevron"
+      fill="#5180b2"
+      stroke="#336699"
+      stroke-width="2"
+      paint-order="stroke"
+    />
+</svg>

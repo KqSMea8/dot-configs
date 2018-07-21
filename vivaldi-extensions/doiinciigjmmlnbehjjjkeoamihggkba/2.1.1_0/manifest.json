@@ -1,0 +1,23 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "icons": {
+      "128": "res/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoqnoxUlSYEmVMaevGxlxSxRU7ERDCaMDNFPUnLCKTwGPvmHe9+MFc97+1Ab1miWKFJPW+5bHFO1aFTllZgcmk9dCMHHg1Zo0EGnNjIc6Km3JGEGdpRyY7ENnb5kjD4yU1VNYE2ZNI2qvAFrpEnfcHor+AhBNyf/mJVnpDM4/3OlpuPKL7y921klue5/27JN/wWBeAUbHm1kadKG4Wg7aC1ymfw5iotmixJssClJbz1A3W98mImiv3eYqvAwUzJncL7z2rECuggTtkq/HbmMYFUF6qCthhp/ABi6ERwiVTiDQvYdaZa71w7pQNPfsXw7UH+d1PTzG7XzH2bCs/h+FWwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "36.0",
+   "name": "__MSG_extension_name__",
+   "options_page": "options.html",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage" ],
+   "short_name": "BWNT",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.1"
+}

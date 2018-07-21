@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "js": [ "grayscale.js" ],
+      "matches": [ "\u003Call_urls>", "file:///*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Press shift+g (or create your own key shortcut) to (de)activate grayscaling of a web page.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCe8qA0ybK2mC1D4t/AtunImjR5A59T4QmfB1ni6pwjTrvoBIDYME0q+NEakqHsclkKFp2mE1csgKpS8sJNvpVuq7Iky2FK3My78alLoy0UMxxZ6Zq5M6fZgwgZlE6O0o2UMh6G4BQWMbADoswaCxvx+RakPGHrikP/vAnlvAkAcwIDAQAB",
+   "manifest_version": 2,
+   "name": "Grayscale Tool",
+   "options_page": "options.html",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0"
+}

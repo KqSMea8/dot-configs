@@ -1,0 +1,14 @@
+# /dev/sda1
+UUID=B5E2-6992      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sda2
+UUID=ecd7676c-332b-42b3-adc7-410cc1bff9e6	/         	ext4      	rw,relatime,data=ordered	0 1
+
+# /dev/sda3
+UUID=b0bd4364-e13d-4eb6-be5c-b41cc3b25244	none      	swap      	defaults,pri=-2	0 0
+
+# /dev/sda4
+UUID=c8e4378d-b7e5-45a2-96bd-b13ecdee5079	/home     	btrfs      	defaults,noatime,nodiratime	0 0
+
+# /dev/sdb1
+UUID=91e58f48-95fe-4fc0-ba57-4bf8a19ba0af	/mnt/320GB	btrfs		defaults,noatime,nodiratime 0 0

@@ -1,0 +1,41 @@
+{
+   "author": "The Intently Development Team",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/browsericons/intentlyLogoActive19.png",
+         "38": "img/browsericons/intentlyLogoActive38.png"
+      },
+      "default_popup": "popup/html/menu.html",
+      "default_title": "intently"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/vapi-client.js", "js/contentscript-start.js", "js/intently-utils.js", "js/intently-conf.js", "js/intently-client.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "js/contentscript-end.js", "js/intently-content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extShortDesc__",
+   "homepage_url": "https://www.intently.com",
+   "icons": {
+      "128": "img/browsericons/intentlyLogo128.png",
+      "16": "img/browsericons/intentlyLogo16.png",
+      "48": "img/browsericons/intentlyLogo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyGriKjX2pKOwg/FI6wAnrsCUF33tRsyYrBqo8DnxzjFVx4dDTCLeTZj7YH8C1xi0IWaR09eZtLata4sYC5tzc5BXuXjfP6h2bq65va+rZ3+0bJhvx/L1KDfulFk585v3RE71vdeH6mzpSjPjSVje8TnPYE8xGTrLLCCpXK7IXhU5xbgC0D9a9nTRK4qWL32NiKooDYpnAGBwZyKr3EH6nIP0rxWdURLHRXM/EPE+MP9z8eeJlrLQEcJ6Kb4wraMo0pDHEWN2LIVgt+5IQVN4NW6wvUX+o61CxgwgqvpH4A5SmT2VSlXpDu61+3aFRqePJczRBpAa5mpXhbs1ZTTZdwIDAQAB",
+   "manifest_version": 2,
+   "name": "Intently",
+   "permissions": [ "webRequest", "webNavigation", "webRequestBlocking", "notifications", "tabs", "cookies", "contextMenus", "storage", "unlimitedStorage", "topSites", "geolocation", "\u003Call_urls>" ],
+   "short_name": "Intently",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.53.1",
+   "web_accessible_resources": [ "manifest.json", "shareDialog/dialog.css", "shareDialog/shareDialog.html", "shareDialog/shareDialog.js", "shareDialog/close.png", "shareDialog/close-hover.png", "shareDialog/search.png", "js/vapi-client.js", "popup/js/jquery-3.0.0.min.js", "img/browsericons/thumbsUp.png", "img/browsericons/thumbsUpChecked.png", "img/browsericons/thumbsDown.png", "img/browsericons/thumbsDownChecked.png", "img/browsericons/share.png", "img/browsericons/intendButtonSmall.png", "img/browsericons/facebookShare.png", "img/browsericons/facebook-lg.png", "img/browsericons/share-lg.png", "img/browsericons/thumbsDown-active.png", "img/browsericons/thumbsDown-lg.png", "img/browsericons/thumbsUp-active.png", "img/browsericons/thumbsUp-lg.png", "img/browsericons/logoutreplacement.png" ]
+}

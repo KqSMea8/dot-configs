@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Torrentz Magnet Links + Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+  <form id="form" class="opt-form">
+    <fieldset id="form-fieldset" class="opt-form__fieldset" disabled="disabled">
+      <section class="opt-section">
+        <header class="opt-section__header">
+          <h1 class="opt-section__title">Search results and iTorrentz filters</h1>
+        </header>
+        <div class="opt-section__item opt-item">
+          <label class="opt-item__option">
+            <input class="opt-item__input" type="checkbox" value="showMagInList">
+            <span class="opt-item__label">Show Magnet links</span>
+          </label>
+          <a class="opt-item__info" tabindex="0"></a>
+          <label class="opt-item__description">
+            <p>Includes list of trackers from the website for maximum speeds.</p>
+            <p>Note that you need to register magnet:// URI-s with a Torrent client such as Tixati or Halite.</p>
+          </label>
+        </div>
+        <div class="opt-section__item opt-item">
+          <label class="opt-item__option">
+            <input class="opt-item__input" type="checkbox" value="showTorInList">
+            <span class="opt-item__label">Show itorrents Torrent links</span>
+          </label>
+          <a class="opt-item__info" tabindex="0"></a>
+          <label class="opt-item__description">
+            <p>Adds a direct .torrent link to search result.</p>
+            <p>Useful if torrent file is very small and it's not worth to wait for magnet to download the torrent file.</p>
+          </label>
+        </div>
+        <div class="opt-section__item opt-item">
+          <label class="opt-item__option">
+            <input class="opt-item__input" type="checkbox" value="showImdbInList">
+            <span class="opt-item__label">Show IMDb search link</span>
+          </label>
+          <a class="opt-item__info" tabindex="0"></a>
+          <label class="opt-item__description">
+            <p>Adds a small link to the torrent name for movie and tv show torrents that, when clicked, opens IMDb search result page.</p>
+          </label>
+        </div>
+        <div class="opt-section__item opt-item">
+          <label class="opt-item__option">
+            <input class="opt-item__input" type="checkbox" value="infiniteScroll">
+            <span class="opt-item__label">Infinite scroll</span>
+          </label>
+          <a class="opt-item__info" tabindex="0"></a>
+          <label class="opt-item__description">
+            <p>When scrolling down, a new page of search results is appended automatically to the rest.</p>
+          </label>
+        </div>
+      </section>
+      <section class="opt-section">
+        <header class="opt-section__header">
+          <h1 class="opt-section__title">Torrent page</h1>
+        </header>
+        <div class="opt-section__item opt-item">
+          <label class="opt-item__option">
+            <input class="opt-item__input" type="checkbox" value="showMagInPage">
+            <span class="opt-item__label">Show magnet links</span>
+          </label>
+          <a class="opt-item__info" tabindex="0"></a>
+          <label class="opt-item__description opt-item__description--top">
+            <p>Includes list of trackers from the website for maximum speeds.</p>
+            <p>Note that you need to register magnet:// URI-s with a torrent client such as Tixati or Halite.</p>
+          </label>
+        </div>
+        <div class="opt-section__item opt-item">
+          <label class="opt-item__option">
+            <input class="opt-item__input" type="checkbox" value="showTorInPage">
+            <span class="opt-item__label">Show itorrents Torrent link</span>
+          </label>
+          <a class="opt-item__info" tabindex="0"></a>
+          <label class="opt-item__description opt-item__description--top">
+            <p>Adds a direct .torrent link to torrent page.</p>
+            <p>Useful if torrent file is very small and it's not worth it to wait for the client to download torrent file.</p>
+          </label>
+        </div>
+        <div class="opt-section__item opt-item">
+          <label class="opt-item__option">
+            <input class="opt-item__input" type="checkbox" value="showExpandoInPage">
+            <span class="opt-item__label">Hide other torrent locations</span>
+          </label>
+          <a class="opt-item__info" tabindex="0"></a>
+          <label class="opt-item__description opt-item__description--top">
+            <p>Hides the list of torrent sites for each torrent.</p>
+            <p>The list is viewable when clicking on a link.</p>
+          </label>
+        </div>
+      </section>
+    </fieldset>
+  </form>
+  <div class="message-container">
+    <div id="success-message" class="message-container__message">
+      Saved! Refresh any affected pages you have open to see the changes.
+    </div>
+    <div id="error-message" class="message-container__message message-container__message--error">_</div>
+  </div>
+  <script src="common.js"></script>
+  <script src="options.js"></script>
+</body>
+
+</html>

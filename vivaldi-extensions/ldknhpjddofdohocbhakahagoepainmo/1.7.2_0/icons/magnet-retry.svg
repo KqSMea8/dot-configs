@@ -1,0 +1,39 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+	viewBox="0 0 16 16"
+>
+	<defs>
+		<path
+			id="magnet"
+  		d="M3 3v6a1 1 0 0 0 10 0V2h-3v7a2 2 0 0 1-2 2 2 2 0 0 1-2-2V2H3z"
+  		vector-effect="non-scaling-stroke"
+		/>
+		<mask id="magnet-mask">
+			<path fill="#fff" d="M0 0h16v16H0z"/>
+		  <use xlink:href="#magnet" fill="black"/>
+		</mask>
+	</defs>
+	<use
+		xlink:href="#magnet"
+		stroke="#ffb090"
+		stroke-width="2"
+		fill="#f5dfd6"
+		paint-order="stroke"
+	/>
+  <path fill="#fff" d="M3 2h3v3H3zm7 0h3v3h-3z" />
+	<path
+	  stroke="#920f00"
+	  stroke-width="1"
+	  stroke-linecap="round"
+	  fill="transparent"
+	  d="M7 10.5a2.5 2.5 0 1 1 2.5-2"
+	/>
+	<path
+	  stroke="#920f00"
+	  fill="#920f00"
+	  stroke-linejoin="round"
+	  stroke-width="0.5"
+	  d="M7.5 8.5l4-2-.5 4z"
+	/>
+</svg>

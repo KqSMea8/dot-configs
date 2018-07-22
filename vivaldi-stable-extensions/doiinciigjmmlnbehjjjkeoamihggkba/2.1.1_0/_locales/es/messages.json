@@ -1,0 +1,110 @@
+{
+   "12_hour": {
+      "message": "12-horas"
+   },
+   "24_hour": {
+      "message": "24-horas"
+   },
+   "change_theme_daytime": {
+      "message": "Cambiar tema según la hora del día"
+   },
+   "dark": {
+      "message": "Oscuro"
+   },
+   "date_format": {
+      "message": "{weekday} {day} de {month}"
+   },
+   "day_friday": {
+      "message": "Viernes"
+   },
+   "day_monday": {
+      "message": "Lunes"
+   },
+   "day_saturday": {
+      "message": "Sábado"
+   },
+   "day_sunday": {
+      "message": "Domingo"
+   },
+   "day_thursday": {
+      "message": "Jueves"
+   },
+   "day_tuesday": {
+      "message": "Martes"
+   },
+   "day_wednesday": {
+      "message": "Miércoles"
+   },
+   "extension_description": {
+      "message": "Minimalista página Nueva Pestaña."
+   },
+   "extension_name": {
+      "message": "BWNT - Nueva Pestaña"
+   },
+   "light": {
+      "message": "Claro"
+   },
+   "lightblue": {
+      "message": "Azul claro"
+   },
+   "material": {
+      "message": "Material"
+   },
+   "month_april": {
+      "message": "Abril"
+   },
+   "month_august": {
+      "message": "Agosto"
+   },
+   "month_december": {
+      "message": "Diciembre"
+   },
+   "month_february": {
+      "message": "Febrero"
+   },
+   "month_january": {
+      "message": "Enero"
+   },
+   "month_july": {
+      "message": "Julio"
+   },
+   "month_june": {
+      "message": "Junio"
+   },
+   "month_march": {
+      "message": "Marzo"
+   },
+   "month_may": {
+      "message": "Mayo"
+   },
+   "month_november": {
+      "message": "Noviembre"
+   },
+   "month_october": {
+      "message": "Octubre"
+   },
+   "month_september": {
+      "message": "Septiembre"
+   },
+   "night": {
+      "message": "Noche"
+   },
+   "options_title": {
+      "message": "Opciones nueva pestaña"
+   },
+   "select_image": {
+      "message": "Selecciona una imagen"
+   },
+   "show_date": {
+      "message": "Mostrar fecha"
+   },
+   "time_am": {
+      "message": "am"
+   },
+   "time_pm": {
+      "message": "pm"
+   },
+   "use_bg_image": {
+      "message": "Usar una imagen de fondo"
+   }
+}

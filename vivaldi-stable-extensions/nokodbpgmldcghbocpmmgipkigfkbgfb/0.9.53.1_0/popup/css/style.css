@@ -1,0 +1,224 @@
+body{
+  width: 500px;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+bodyexisting{
+  width: 350px; 
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+  padding-left: 10px;
+  background-color: #ffffff;
+}
+
+.action-list {
+  margin: 0 0 0 100px;
+}
+
+.pull-left{
+  float:left;
+}
+
+.pull-right{
+  float:right;
+}
+
+.ext-close{
+  margin-top:5px;
+  padding-right:10px;
+  width:19px;
+  height:19px;
+  background-image:url("../icons/close.png");
+  background-repeat: no-repeat;
+}
+
+.ext-close:hover{
+  background-image:url('../icons/close-hover.png');
+}
+
+.ext-txt{
+  color: #4d4d4d;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 20px;
+  display: inline;
+}
+
+.ext-txt-close{
+  color: #4d4d4d;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+	
+.ext-txt-options{
+    color: #4d4d4d;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.ext-icon {
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: bottom;;
+  background-repeat: no-repeat;
+}
+
+.ext-icon-lg {
+  display:inline-block;
+  width: 42px;
+  height: 42px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:24px;
+  vertical-align: middle;
+  border-radius: 2px;
+  border: solid 1px #4d4d4d;
+}
+
+.intently-green{
+  color : #28c157;
+}
+
+.intently-green-bg{
+  background-color : #28c157;
+}
+
+.lineItem{
+
+}
+.strong {
+  font-weight: 600;
+}
+
+.italics {
+  font-style:italic;
+}
+
+.stats{
+  color : #28c157;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.statserror{
+  font-size: 15px;
+  color : #ff0000;
+  
+}
+.clickable{
+  cursor:pointer;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mbitem {
+  margin-bottom: 1px;
+}
+
+.mb30 {
+  margin-bottom: 30px
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+.pr10{
+ /* padding-right:10px; */
+}
+.mt40 {
+  margin-top: 40px;
+}
+ .intently_logo img {
+   height: 40px
+ }
+.notification-count {
+  background-color: #28c157;
+  border-radius: 50%;
+  border: 3px solid #28c157;
+  font-size:8px;
+  color:white;
+  display:inline-block;
+  float:right;
+}
+
+.notifications-active {
+  background-image:url("../icons/notifications-active.png");
+}
+
+.notifications-inactive {
+  background-image:url("../icons/notifications-inactive.png");
+}
+
+.settings {
+  background-image:url("../icons/settings.png");
+}
+
+.dashboard {
+  background-image:url("../icons/dashboard.png");
+}
+
+.share {
+  background-image:url("../icons/share.png");
+}
+
+.disable_all {
+  background-image: url("../icons/disable-all.png");
+}
+
+.disable_site {
+  background-image: url("../icons/disable-site.png");
+}
+
+.enable_all {
+  background-image: url("../icons/enable-all.png");
+}
+
+.enable_site {
+  background-image: url("../icons/enable-site.png");
+}
+
+
+.thumbsUp-lg {
+  background-image: url("../icons/thumbsUp-lg.png");
+}
+
+.thumbsDown-lg {
+  background-image: url("../icons/thumbsDown-lg.png");
+}
+
+.facebook-lg {
+  background-image: url("../icons/facebook-lg.png");
+}
+
+.share-lg {
+  background-image: url("../icons/share-lg.png");
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.hidedisplay{
+  display: none;
+}
+
+.titleLine{
+  font-size: 32px;
+  font-weight: 300;
+}

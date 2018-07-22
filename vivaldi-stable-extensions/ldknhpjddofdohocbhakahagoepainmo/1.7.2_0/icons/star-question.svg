@@ -1,0 +1,44 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 16 16"
+>
+  <defs>
+    <path
+      id="star"
+      d="M8 1.5l1.8 4.7 5 .3-3.8 3 1.2 5L8 11.8l-4.2 2.7 1.2-5-3.8-3 5-.3L8 1.5z"
+      vector-effect="non-scaling-stroke"
+    />
+    <clipPath id="star-cp">
+      <use xlink:href="#star" />
+    </clipPath>
+  </defs>
+  <use
+    xlink:href="#star"
+    fill="#5180b2"
+    stroke="#336699"
+    stroke-width="2"
+    stroke-linejoin="round"
+    paint-order="stroke"
+  />
+  <use
+    xlink:href="#star"
+    clip-path="url(#star-cp)"
+    fill="transparent"
+    stroke="rgba(255, 255, 255, 0.1)"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+  <text
+    fill="#FFF"
+    x="8"
+    y="8"
+    font-size="6"
+    dy=".5"
+    font-weight="bold"
+    font-family="sans-serif"
+    text-anchor="middle"
+    dominant-baseline="mathematical"
+    shape-rendering="crispEdges"
+  >?</text>
+</svg>

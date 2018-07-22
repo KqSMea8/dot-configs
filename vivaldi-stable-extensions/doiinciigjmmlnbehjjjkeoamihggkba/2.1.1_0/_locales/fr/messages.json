@@ -1,0 +1,110 @@
+{
+   "12_hour": {
+      "message": "12-heures"
+   },
+   "24_hour": {
+      "message": "24-heures"
+   },
+   "change_theme_daytime": {
+      "message": "Changer le theme en fonction du temps du jour"
+   },
+   "dark": {
+      "message": "Foncé"
+   },
+   "date_format": {
+      "message": "{weekday}, {day} {month}"
+   },
+   "day_friday": {
+      "message": "Vendredi"
+   },
+   "day_monday": {
+      "message": "Lundi"
+   },
+   "day_saturday": {
+      "message": "Samedi"
+   },
+   "day_sunday": {
+      "message": "Dimanche"
+   },
+   "day_thursday": {
+      "message": "Jeudi"
+   },
+   "day_tuesday": {
+      "message": "Mardi"
+   },
+   "day_wednesday": {
+      "message": "Mercredi"
+   },
+   "extension_description": {
+      "message": "Un magnifique thème minimaliste en noir & blanc pour la page Nouvel Onglet."
+   },
+   "extension_name": {
+      "message": "BWNT - Nouvel Onglet"
+   },
+   "light": {
+      "message": "Clair"
+   },
+   "lightblue": {
+      "message": "Bleu clair"
+   },
+   "material": {
+      "message": "Material"
+   },
+   "month_april": {
+      "message": "Avril"
+   },
+   "month_august": {
+      "message": "Août"
+   },
+   "month_december": {
+      "message": "Décembre"
+   },
+   "month_february": {
+      "message": "Février"
+   },
+   "month_january": {
+      "message": "Janvier"
+   },
+   "month_july": {
+      "message": "Juillet"
+   },
+   "month_june": {
+      "message": "Juin"
+   },
+   "month_march": {
+      "message": "Mars"
+   },
+   "month_may": {
+      "message": "Mai"
+   },
+   "month_november": {
+      "message": "Novembre"
+   },
+   "month_october": {
+      "message": "Octobre"
+   },
+   "month_september": {
+      "message": "Septembre"
+   },
+   "night": {
+      "message": "Nuit"
+   },
+   "options_title": {
+      "message": "Options pour la page Nouvel Onglet"
+   },
+   "select_image": {
+      "message": "Select an image"
+   },
+   "show_date": {
+      "message": "Afficher la date"
+   },
+   "time_am": {
+      "message": "am"
+   },
+   "time_pm": {
+      "message": "pm"
+   },
+   "use_bg_image": {
+      "message": "Use a background image"
+   }
+}

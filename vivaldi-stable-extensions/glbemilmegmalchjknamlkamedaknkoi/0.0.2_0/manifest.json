@@ -1,0 +1,21 @@
+{
+   "author": "Tom Hardman",
+   "browser_action": {
+      "default_icon": "icons/postto512.png",
+      "default_popup": "html/postto.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "This extension shares your current page directly to Hacker News. Optionally, you can add a custom title.",
+   "icons": {
+      "128": "icons/postto128.png",
+      "256": "icons/postto256.png",
+      "32": "icons/postto32.png",
+      "512": "icons/postto512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlp3dja6hnTmjmMVvxZUZsfaj6kqfaZ5qG+xwVMRJwQNxHHcCnUjmWGBNu+Hpj+2hzJyKzBr6MBk80HRdUjuceqyMRejv0w267RmFiPefig/UT/1S4+gbxLpsOqsK9C8y7n9RXU0Q8xVwCupdzTUstmX2Cq8tkZ6qpsVkll9cdwOph1WuX2REUX+zqC0JrEen5YySo3JX8hKE9GgGjiWehtdp3TivagJCsHKBCnKoQyAGRflTX5SyF4NNxCjK9Zd37Gdb+qEaPssCz2NTWxOfxMhnXK+PcdHySM96DZDZriTy6Kqw0Epd4tPYOEKdvJWrN1RY7+MOcKMomaA3afU4swIDAQAB",
+   "manifest_version": 2,
+   "name": "Post to Hacker News",
+   "permissions": [ "activeTab", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.2"
+}

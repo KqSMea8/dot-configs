@@ -1,0 +1,1570 @@
+{
+   "action_menu_activate_current_tab": {
+      "description": "Activate on current tab shortcut in the action menu",
+      "message": "Activeer op het huidige tabblad"
+   },
+   "action_menu_advanced_menu_aria_label": {
+      "description": "Accessibility, aria label of the advanced menu",
+      "message": "Mailvelope geavanceerd menu"
+   },
+   "action_menu_advanced_options": {
+      "description": "Advanced options link in the action menu",
+      "message": "Geavanceerde opties"
+   },
+   "action_menu_all_options": {
+      "description": "All options link in the action menu",
+      "message": "Alle opties"
+   },
+   "action_menu_back": {
+      "description": "Back link in the action menu",
+      "message": "Terug"
+   },
+   "action_menu_configure_mailvelope": {
+      "description": "Configure Mailvelope label in the action menu",
+      "message": "\u003C0>Configureer Mailvelope\u003C/0> om te starten!"
+   },
+   "action_menu_dashboard": {
+      "description": "Dashboard label in the action menu",
+      "message": "\u003C0>Dashboard:\u003C/0> browse door alle configuratie opties."
+   },
+   "action_menu_edit_security_settings": {
+      "description": "Edit security settings shortcut in the action menu",
+      "message": "Bewerk beveiligingsinstellingen"
+   },
+   "action_menu_file_encryption": {
+      "description": "File encryption label in the action menu",
+      "message": "\u003C0>Bestand versleuteling:\u003C/0> versleutel een bestand of meer."
+   },
+   "action_menu_help": {
+      "description": "Online help shortcut.",
+      "message": "Help"
+   },
+   "action_menu_keyring": {
+      "description": "Keyring label in the action menu",
+      "message": "\u003C0>Sleutelring:\u003C/0> beheer publiek en privaat sleutels."
+   },
+   "action_menu_manage_email_providers": {
+      "description": "Manage email providers shortcut in the action menu",
+      "message": "Beheer e-mailproviders"
+   },
+   "action_menu_more_options": {
+      "description": "More options link in the action menu (setup state)",
+      "message": "Meer opties"
+   },
+   "action_menu_primary_menu_aria_label": {
+      "description": "Accessibility, aria label of the primary menu",
+      "message": "Mailvelope primaire menu"
+   },
+   "action_menu_reload_extension_scripts": {
+      "description": "Reload extension scripts shortcut in the action menu",
+      "message": "Herlaad extensie scripts"
+   },
+   "action_menu_review_security_logs": {
+      "description": "Review security logs shortcut in the action menu",
+      "message": "Controleer beveiligingslogboeken"
+   },
+   "action_menu_setup_menu_aria_label": {
+      "description": "Accessibility, aria label of the setup menu",
+      "message": "Mailvelope setup menu"
+   },
+   "alert_header_error": {
+      "description": "Alert header of category error.",
+      "message": "Fout!"
+   },
+   "alert_header_success": {
+      "description": "Alert header of category success.",
+      "message": "Gelukt!"
+   },
+   "alert_header_warning": {
+      "description": "Alert header of category warning.",
+      "message": "Waarschuwing!"
+   },
+   "alert_invalid_domainmatchpattern_warning": {
+      "description": "Alert header of category warning.",
+      "message": "Overeenkomstpatroon van domein moet beginnen met *."
+   },
+   "alert_no_domainmatchpattern_warning": {
+      "description": "Alert header of category warning.",
+      "message": "Minstens één overeenkomstpatroon van domein is nodig."
+   },
+   "change_link": {
+      "description": "Navigation link to change this setting.",
+      "message": "Wijzigen"
+   },
+   "cleartext_read_error": {
+      "description": "Cleartext message read error message: $1: error message.",
+      "message": "Kon dit niet-versleutelde tekstbericht niet lezen: $1"
+   },
+   "dashboard_link_encrypt_decrypt_files": {
+      "description": "Dashboard encrypt decrypt files link",
+      "message": "Versleutel en ontsleutelen bestanden"
+   },
+   "dashboard_link_help": {
+      "description": "Dashboard help link",
+      "message": "Help"
+   },
+   "dashboard_link_manage_email_providers": {
+      "description": "Dashboard manage email providers link",
+      "message": "Beheer e-mailproviders"
+   },
+   "dashboard_link_manage_keys": {
+      "description": "Dashboard manage keys link",
+      "message": "Beheer sleutels"
+   },
+   "dashboard_link_view_security_log": {
+      "description": "Dashboard view security logs link",
+      "message": "Bekijk beveiligingslogboeken"
+   },
+   "dashboard_title": {
+      "description": "Dashboard view header",
+      "message": "Dashboard"
+   },
+   "decrypt_digital_signature": {
+      "description": "Caption digital signature",
+      "message": "Digitaal ondertekend"
+   },
+   "decrypt_digital_signature_failure": {
+      "description": "Caption digital signature",
+      "message": "Ongeldige digitale ondertekening"
+   },
+   "decrypt_digital_signature_null": {
+      "description": "Caption digital signature",
+      "message": "Digitale ondertekening kon niet worden geïdentificeerd"
+   },
+   "decrypt_popup_copy": {
+      "description": "Copy decrypted message to clipboard.",
+      "message": "Naar het klembord kopiëren"
+   },
+   "decrypt_popup_header": {
+      "description": "Header of decrypt popup.",
+      "message": "Bericht"
+   },
+   "decrypt_popup_title": {
+      "description": "Title of decrypt popup.",
+      "message": "Ontsleuteld bericht"
+   },
+   "dialog_keyid_label": {
+      "description": "Label for key ID.",
+      "message": "Sleut.-ID:"
+   },
+   "dialog_popup_close": {
+      "description": "Close decrypt popup.",
+      "message": "Sluiten"
+   },
+   "digital_signature_status_false": {
+      "description": "",
+      "message": "Ongeldige ondertekening"
+   },
+   "digital_signature_status_null": {
+      "description": "",
+      "message": "Ondertekening kan niet worden geverifieerd"
+   },
+   "digital_signature_status_null_description": {
+      "description": "",
+      "message": "Het contact van de digitale ondertekening is nog niet bevestigd voor versleutelde communicatie. Vraag het contact om een uitnodiging."
+   },
+   "digital_signature_status_true": {
+      "description": "",
+      "message": "Ondertekening is geldig"
+   },
+   "editor_blur_warn": {
+      "description": "Warning for lost focus.",
+      "message": "Waarschuwing: Tekst editor heeft focus verloren."
+   },
+   "editor_encrypt_button": {
+      "description": "Encrypt button.",
+      "message": "Versleutelen"
+   },
+   "editor_error_header": {
+      "description": "",
+      "message": "Fout"
+   },
+   "editor_header": {
+      "description": "Header of editor popup.",
+      "message": "Componeren Email"
+   },
+   "editor_key_not_found": {
+      "description": "Warning for when a recipient key was not found.",
+      "message": "Sleutel niet gevonden!"
+   },
+   "editor_key_not_found_msg": {
+      "description": "Warning for when a recipient key was not found.",
+      "message": "Alle ontvangers hebben een PGP-sleutel nodig om te kunnen versleutelen. Je kan het bericht wel nog altijd ondertekenen."
+   },
+   "editor_label_add_recipient": {
+      "description": "Label for recipient text input.",
+      "message": "Ontvanger toevoegen"
+   },
+   "editor_link_file_encryption": {
+      "description": "Navigation link to file encryption",
+      "message": "Versleutel bestanden"
+   },
+   "editor_no_primary_key_caption_long": {
+      "description": "",
+      "message": "Email kan niet digitaal worden ondertekend omdat de primaire sleutel ontbreekt"
+   },
+   "editor_no_primary_key_caption_short": {
+      "description": "",
+      "message": "Email kan niet digitaal worden ondertekend"
+   },
+   "editor_remove_upload": {
+      "description": "Remove uploaded attachment",
+      "message": "Verwijderen"
+   },
+   "editor_sign_button": {
+      "description": "Sign button.",
+      "message": "Enkel ondertekenen"
+   },
+   "editor_sign_caption_long": {
+      "description": "",
+      "message": "Wanneer de Email is verstuurd, het is ook digitaal ondertekend"
+   },
+   "editor_sign_caption_short": {
+      "description": "",
+      "message": "E-mail wordt digitaal ondertekend"
+   },
+   "editor_transfer": {
+      "description": "Transfer button of editor popup.",
+      "message": "Verplaatsen"
+   },
+   "encrypt_dialog_add": {
+      "description": "Max 6 character.",
+      "message": "Toevoegen"
+   },
+   "encrypt_dialog_header": {
+      "description": "Header of encrypt dialog.",
+      "message": "Versleutelen voor:"
+   },
+   "encrypt_dialog_no_recipient": {
+      "description": "Error message if no recipient selected.",
+      "message": "Voeg een ontvanger toe."
+   },
+   "encrypt_dialog_subheader": {
+      "description": "Subheader of encrypt dialog.",
+      "message": "Personen:"
+   },
+   "encrypt_download_all_button": {
+      "description": "Button to download all files",
+      "message": "Alles opslaan"
+   },
+   "encrypt_download_file_button": {
+      "description": "Download icon",
+      "message": "Klik om bestand op te slaan"
+   },
+   "encrypt_download_file_title": {
+      "description": "Title of download area",
+      "message": "Opslaan bestanden"
+   },
+   "encrypt_error": {
+      "description": "Error during encryption process.",
+      "message": "Kon dit bericht niet versleutelen: $1"
+   },
+   "encrypt_file_selection": {
+      "description": "File upload selection",
+      "message": "Bestandsselectie"
+   },
+   "encrypt_upload_file_help": {
+      "description": "Help text",
+      "message": "Geen van de bestanden kan groter zijn dan ##MB."
+   },
+   "encrypt_upload_file_warning_too_big": {
+      "description": ".",
+      "message": "Een van de bestanden is te groot."
+   },
+   "encrypting_home": {
+      "description": "File encryption top navigation.",
+      "message": "Versleuteling"
+   },
+   "ext_description": {
+      "description": "Description of the extension.",
+      "message": "Verbeter uw email provider met end-to-end versleuteling. Beveiligde email communicatie op basis van de OpenPGP norm."
+   },
+   "ext_name": {
+      "description": "Name of the extension.",
+      "message": "Mailvelope"
+   },
+   "file_decrypting": {
+      "description": "",
+      "message": "Bestand ontsleuteling"
+   },
+   "file_encrypt_armored_output": {
+      "description": "",
+      "message": "Versleutelen naar bestand in tekst formaat (ASCII-Armor)"
+   },
+   "file_encrypting": {
+      "description": "",
+      "message": "Bestandsversleuteling"
+   },
+   "file_read_error": {
+      "description": "",
+      "message": "Kon niet ontsleutelen dit bestand: $1"
+   },
+   "form_back": {
+      "description": "Back form button.",
+      "message": "Terug"
+   },
+   "form_busy": {
+      "description": "Form in busy state.",
+      "message": "Bezig"
+   },
+   "form_cancel": {
+      "description": "Cancel form button.",
+      "message": "Annuleren"
+   },
+   "form_clear": {
+      "description": "Clear form button.",
+      "message": "Wissen"
+   },
+   "form_close": {
+      "description": "Close form button.",
+      "message": "Sluiten"
+   },
+   "form_confirm": {
+      "description": "Confirm form button.",
+      "message": "Bevestigen"
+   },
+   "form_continue": {
+      "description": "Continue form button.",
+      "message": "Doorgaan"
+   },
+   "form_forward": {
+      "description": "Forward form button.",
+      "message": "Vooruit"
+   },
+   "form_import": {
+      "description": "Import form button.",
+      "message": "Importeren"
+   },
+   "form_next": {
+      "description": "Next form button.",
+      "message": "Volgende"
+   },
+   "form_no": {
+      "description": "No form button.",
+      "message": "Nee"
+   },
+   "form_ok": {
+      "description": "Ok form button.",
+      "message": "Oké"
+   },
+   "form_save": {
+      "description": "Save form button.",
+      "message": "Opslaan"
+   },
+   "form_submit": {
+      "description": "Submit form button.",
+      "message": "Verzenden"
+   },
+   "form_undo": {
+      "description": "Undo form button.",
+      "message": "Ongedaan maken"
+   },
+   "form_yes": {
+      "description": "Yes form button.",
+      "message": "Ja"
+   },
+   "general_editor_plain": {
+      "description": "Editor option: plain text.",
+      "message": "Tekst zonder opmaak"
+   },
+   "general_editor_rich": {
+      "description": "Editor option: rich text.",
+      "message": "Editor voor tekst met opmaak"
+   },
+   "general_editor_type": {
+      "description": "Label for editor options.",
+      "message": "E-maileditorselectie"
+   },
+   "general_primary_key_always": {
+      "description": "Label for primary private key option.",
+      "message": "Voeg mijn primaire sleutel altijd toe aan de lijst met ontvangers. (Dit laat je toe verzonden e-mails te ontsleutelen)"
+   },
+   "general_primary_key_auto_sign": {
+      "description": "Label for primary private key option.",
+      "message": "Alle berichten ondertekenen met primaire sleutel"
+   },
+   "general_primary_key_label": {
+      "description": "Label for primary private key option.",
+      "message": "Primaire privésleutel"
+   },
+   "header_warning": {
+      "description": "Header warning.",
+      "message": "Waarschuwing!"
+   },
+   "install_landing_page_getting_started": {
+      "description": "Install landing page getting started message",
+      "message": "Klik op de Mailvelope icon \u003C0>\u003C/0> in uw browser toolbar om te beginnen met de configuratie."
+   },
+   "install_landing_page_help": {
+      "description": "Install landing page help message",
+      "message": "Bekijk de \u003C0>online help\u003C/0> voor meer informatie."
+   },
+   "install_landing_page_welcome": {
+      "description": "Install landing page welcome message",
+      "message": "Welkom bij Mailvelope!"
+   },
+   "invalid_primary_key": {
+      "description": "Tootip for set as primary key button",
+      "message": "Sleutel is niet geldig voor versleuteling of ondertekening"
+   },
+   "key_details_title": {
+      "description": "The title of the key details dialog.",
+      "message": "Sleuteldetails"
+   },
+   "key_export_clipboard": {
+      "description": "Copy to clipboard button.",
+      "message": "Naar het klembord kopiëren"
+   },
+   "key_export_create_file": {
+      "description": "Download file button.",
+      "message": "Opslaan"
+   },
+   "key_export_header": {
+      "description": "Export key dialog header.",
+      "message": "Sleutel exporteren"
+   },
+   "key_export_warning_private": {
+      "description": "Key export warning.",
+      "message": "Dit bestand bevat ook privésleutels. Bewaar het bestand op een veilige plaats en deel het niet met anderen."
+   },
+   "key_gen_advanced_btn": {
+      "description": "Advanced key generation settings.",
+      "message": "Geavanceerd"
+   },
+   "key_gen_another": {
+      "description": "Key import button",
+      "message": "Een ander genereren..."
+   },
+   "key_gen_demail": {
+      "description": "De-Mail address name.",
+      "message": "De-mailadres"
+   },
+   "key_gen_error": {
+      "description": "Key generation error message",
+      "message": "Fout tijdens het genereren van sleutel."
+   },
+   "key_gen_expiration": {
+      "description": "Key expiration date",
+      "message": "Sleutelverloopdatum"
+   },
+   "key_gen_generate": {
+      "description": "Key generate button label",
+      "message": "Aanmaken"
+   },
+   "key_gen_invalid_email": {
+      "description": "Error message.",
+      "message": "Ongeldig e-mailadres"
+   },
+   "key_gen_key_size": {
+      "description": "Advanced key generation settings: Key size",
+      "message": "Sleutelgrootte"
+   },
+   "key_gen_name_help": {
+      "description": "Help text for name field.",
+      "message": "Volledige naam van de sleuteleigenaar"
+   },
+   "key_gen_pwd": {
+      "description": "Label for passphrase input field",
+      "message": "Wachtwoorden invoeren"
+   },
+   "key_gen_pwd_empty": {
+      "description": "Passphrase input field status",
+      "message": "Wachtwoord veld is leeg"
+   },
+   "key_gen_pwd_match": {
+      "description": "Passphrase input field status",
+      "message": "Wachtwoorden komen overeen"
+   },
+   "key_gen_pwd_reenter": {
+      "description": "Label for passphrase input field",
+      "message": "Wachtwoord opnieuw invoeren"
+   },
+   "key_gen_pwd_unequal": {
+      "description": "Passphrase input field status",
+      "message": "Wachtwoorden komen niet overeen"
+   },
+   "key_gen_success": {
+      "description": "Key generation success message",
+      "message": "Nieuwe sleutel gegenereerd en geïmporteerd in sleutelbos"
+   },
+   "key_gen_upload": {
+      "description": "Upload key to Mailvelope key server checkbox",
+      "message": "Upload publieke sleutel naar Mailvelope-sleutelserver (kan op elk moment weer verwijderd worden)"
+   },
+   "key_gen_wait_header": {
+      "description": "Wait dialog header",
+      "message": "Sleutel aan het genereren..."
+   },
+   "key_gen_wait_info": {
+      "description": "Wait dialog info message",
+      "message": "Even geduld, de sleutelgeneratie kan enkele minuten duren afhankelijke van bepaalde factoren, zoals de sleutelgrootte."
+   },
+   "key_import_default_description": {
+      "description": "Key import dialog description.",
+      "message": "Bevestig om versleutelde communicatie met deze ontvanger in te schakelen."
+   },
+   "key_import_default_headline": {
+      "description": "Key import dialog header.",
+      "message": "Contact toevoegen aan versleutelde communicatie?"
+   },
+   "key_import_dialog_header": {
+      "description": "Key import dialog header.",
+      "message": "Sleutel toevoegen aan sleutelbos"
+   },
+   "key_import_error": {
+      "description": "Import error alert.",
+      "message": "Fout bij importeren."
+   },
+   "key_import_exception": {
+      "description": "Import error alert.",
+      "message": "Er trad een fout op bij het verwerken van de sleutels"
+   },
+   "key_import_extend_date": {
+      "description": "",
+      "message": "Aangemaakt:"
+   },
+   "key_import_extend_description": {
+      "description": "Key import dialog description.",
+      "message": "De PGP-vingerafdruk wordt gebruikt om de PGP-sleutel van uwe contact op unieke wijze te identificeren."
+   },
+   "key_import_extend_fingerprint": {
+      "description": "",
+      "message": "PGP Vingerafdruk:"
+   },
+   "key_import_extend_headline": {
+      "description": "Key import dialog description.",
+      "message": "Meer informatie over versleutelde communicatie:"
+   },
+   "key_import_extend_hint": {
+      "description": "",
+      "message": "Hint:"
+   },
+   "key_import_file": {
+      "description": "File selection label.",
+      "message": "Sleutel importeren uit bestand"
+   },
+   "key_import_file_select": {
+      "description": "File selection button label.",
+      "message": "Kies een sleuteltekstbestand om te importeren"
+   },
+   "key_import_hkp_search": {
+      "description": "",
+      "message": "Sleutel zoeken"
+   },
+   "key_import_hkp_search_btn": {
+      "description": "",
+      "message": "Zoeken"
+   },
+   "key_import_hkp_search_ph": {
+      "description": "",
+      "message": "Bij naam, e-mailadres, of sleut.-ID"
+   },
+   "key_import_hkp_search_public": {
+      "description": "",
+      "message": "Zoek naar publieke sleutels op sleutelserver."
+   },
+   "key_import_hkp_server": {
+      "description": "",
+      "message": "Sleutelserver"
+   },
+   "key_import_invalid_text": {
+      "description": "Import error alert.",
+      "message": "Geen geldige sleuteltekst gevonden"
+   },
+   "key_import_invalidated_description": {
+      "description": "",
+      "message": "Versleutelde communicatie met [CONTACT] is niet meer mogelijk. Het contact moet je opnieuw uitnodigen."
+   },
+   "key_import_invalidated_headline": {
+      "description": "Key import dialog header.",
+      "message": "Waarschuwing: de gegevens nodig voor versleutelde communicatie zijn verlopen."
+   },
+   "key_import_multiple_keys": {
+      "description": "Info message.",
+      "message": "Voer hier een of meerdere sleutels in tekstformaat in."
+   },
+   "key_import_private_exists": {
+      "description": "Import success message: $1: keyid, $2: userid.",
+      "message": "Persoonlijke sleutel deel passen bij bestaande publieke sleutel $1 van gebruiker $2 geïmporteerd in de sleutelring  "
+   },
+   "key_import_private_read": {
+      "description": "Import error message. $1: error message",
+      "message": "Niet in staat een privésleutel te lezen: $1"
+   },
+   "key_import_private_success": {
+      "description": "Import success message: $1: keyid, $2: userid.",
+      "message": "Privésleutel $1 van gebruiker $2 geïmporteerd in sleutelbos"
+   },
+   "key_import_private_update": {
+      "description": "Import success message: $1: keyid, $2: userid.",
+      "message": "Privésleutel $1 van gebruiker $2 bijgewerkt"
+   },
+   "key_import_public_read": {
+      "description": "Import error message. $1: error message",
+      "message": "Niet in staat een publieke sleutel te lezen: $1"
+   },
+   "key_import_public_success": {
+      "description": "Import success message: $1: keyid, $2: userid.",
+      "message": "Publieke sleutel $1 van gebruiker $2 geïmporteerd in sleutelbos"
+   },
+   "key_import_public_update": {
+      "description": "Import success message: $1: keyid, $2: userid.",
+      "message": "Publieke sleutel $1 van gebruiker $2 bijgewerkt"
+   },
+   "key_import_textarea": {
+      "description": "Label",
+      "message": "Sleutel importeren als tekst"
+   },
+   "key_import_too_big": {
+      "description": "Import error alert.",
+      "message": "De sleuteltekst die je probeerde te importeren is te lang om te verwerken. Probeer het in kleinere delen."
+   },
+   "key_import_unable": {
+      "description": "Import error message: $1: error message.",
+      "message": "Niet in staat een sleutel te importeren door een uitzondering: $1"
+   },
+   "key_recovery_failed": {
+      "description": "",
+      "message": "Herstellen van sleutel uit back-up mislukt."
+   },
+   "key_set_as_primary": {
+      "description": "Set as primary key for the keyring button",
+      "message": "Instellen als primair"
+   },
+   "keybackup_failed": {
+      "description": "",
+      "message": "Aanmaken van sleutelback-up mislukt."
+   },
+   "keybackup_restore_dialog_button": {
+      "description": "",
+      "message": "Back-up herstellen"
+   },
+   "keybackup_restore_dialog_description": {
+      "description": "",
+      "message": "Maak hier een nieuw herstel blad, als:"
+   },
+   "keybackup_restore_dialog_headline": {
+      "description": "",
+      "message": "Aanbeveling: maak een back-up aan"
+   },
+   "keybackup_restore_dialog_list_1": {
+      "description": "",
+      "message": "U verloor het herstel blad."
+   },
+   "keybackup_restore_dialog_list_2": {
+      "description": "",
+      "message": "Een nieuw herstel blad moet worden gecreëerd om veiligheidsredenen."
+   },
+   "keybackup_setup_dialog_button": {
+      "description": "",
+      "message": "Maak een backup"
+   },
+   "keybackup_setup_dialog_description": {
+      "description": "",
+      "message": "De back-up is vereist om ervoor te zorgen dat je versleutelde communicatie:"
+   },
+   "keybackup_setup_dialog_headline": {
+      "description": "",
+      "message": "Aanbeveling: stel een back-up in"
+   },
+   "keybackup_setup_dialog_list_1": {
+      "description": "In order to restore your encrypted communication in case of data loss.",
+      "message": "Hersteld kan worden bij gegevensverlies."
+   },
+   "keybackup_setup_dialog_list_2": {
+      "description": "In order to transfer your encrypted communication to other devices.",
+      "message": "Overgezet kan worden naar andere apparaten."
+   },
+   "keybackup_waiting_description": {
+      "description": "",
+      "message": "Een document met uw herstel code wordt voorbereid."
+   },
+   "keybackup_waiting_headline": {
+      "description": "",
+      "message": "Back-up wordt aangemaakt!"
+   },
+   "keygen_dialog_confirm": {
+      "description": "",
+      "message": "Herhaal"
+   },
+   "keygen_dialog_confirm_error_unequal": {
+      "description": "",
+      "message": "Controleer je invoer."
+   },
+   "keygen_dialog_confirm_success": {
+      "description": "",
+      "message": "Invoer is geldig."
+   },
+   "keygen_dialog_password": {
+      "description": "",
+      "message": "Sleutelwachtwoord"
+   },
+   "keygen_dialog_password_placeholder": {
+      "description": "",
+      "message": "minimaal 4 karakters"
+   },
+   "keygen_dialog_prolog": {
+      "description": "",
+      "message": "Wijs een wachtwoord toe om je versleutelde communicatie te beschermen:"
+   },
+   "keygen_waiting_description": {
+      "description": "",
+      "message": "Het instellen van versleutelde communicatie kan enkele minuten duren. Je browser kan tijdelijk niet reageren. Heb even geduld."
+   },
+   "keygen_waiting_headline": {
+      "description": "",
+      "message": "Versleutelde communicatie wordt ingesteld"
+   },
+   "keygrid_algorithm": {
+      "description": "Public-key algorithm of a PGP key.",
+      "message": "Algoritme"
+   },
+   "keygrid_all_keys": {
+      "description": "Selection of key type.",
+      "message": "Alles"
+   },
+   "keygrid_creation_date": {
+      "description": "Creation date of a PGP key.",
+      "message": "Datum van aanmaak"
+   },
+   "keygrid_creation_date_short": {
+      "description": "Short creation date of a PGP key. Max. width: 90px",
+      "message": "Aangemaakt"
+   },
+   "keygrid_delete": {
+      "description": "Max. 6 characters.",
+      "message": "Wissen"
+   },
+   "keygrid_delete_confirmation": {
+      "description": "Delete confirmation dialog.",
+      "message": "Weet je zeker dat je deze sleutel wil verwijderen?"
+   },
+   "keygrid_display_all_keys": {
+      "description": "Export key menu.",
+      "message": "Alle sleutels weergeven"
+   },
+   "keygrid_display_priv_key": {
+      "description": "Export key menu.",
+      "message": "Privésleutel weergeven"
+   },
+   "keygrid_display_pub_key": {
+      "description": "Export key menu.",
+      "message": "Publieke sleutel weergeven"
+   },
+   "keygrid_expiration_date": {
+      "description": "Expiration date of a PGP key.",
+      "message": "Verloopdatum"
+   },
+   "keygrid_export": {
+      "description": "Export key.",
+      "message": "Exporteren"
+   },
+   "keygrid_export_title": {
+      "description": "Title for Export key button.",
+      "message": "Exporteer alle sleutels in deze lijst naar bestand"
+   },
+   "keygrid_invalid_userid": {
+      "description": "User ID invalid.",
+      "message": "Ongeldige gebruikers-ID"
+   },
+   "keygrid_key_fingerprint": {
+      "description": "Unique string identifier for a PGP key.",
+      "message": "PGP Vingerafdruk"
+   },
+   "keygrid_key_length": {
+      "description": "Key length of a PGP key.",
+      "message": "Lengte"
+   },
+   "keygrid_key_not_expire": {
+      "description": "Expiration date of a PGP key not set.",
+      "message": "Deze sleutel verloopt niet"
+   },
+   "keygrid_key_type": {
+      "description": "The type of the key.",
+      "message": "Type"
+   },
+   "keygrid_keyid": {
+      "description": "Key ID of a PGP key.",
+      "message": "Sleut.-ID"
+   },
+   "keygrid_no_subkeys": {
+      "description": "No subkeys of a PGP key found.",
+      "message": "Geen subsleutels beschikbaar"
+   },
+   "keygrid_primary_key": {
+      "description": "Main key in the PGP key.",
+      "message": "Hoofdsleutel"
+   },
+   "keygrid_primary_label": {
+      "description": "Label for the primary key",
+      "message": "Primair"
+   },
+   "keygrid_private_keys": {
+      "description": "Selection of key type.",
+      "message": "Privésleutels"
+   },
+   "keygrid_public_keys": {
+      "description": "Selection of key type.",
+      "message": "Openbare sleutels"
+   },
+   "keygrid_send_pub_key": {
+      "description": "Export key menu.",
+      "message": "Stuur publieke sleutel via email"
+   },
+   "keygrid_signer_name": {
+      "description": "User ID of signer.",
+      "message": "Ondertekenaar"
+   },
+   "keygrid_signer_unknown": {
+      "description": "Key of signer not available.",
+      "message": "Onbekende ondertekenaar"
+   },
+   "keygrid_sort_type": {
+      "description": "Key grid sort selector.",
+      "message": "Sleuteltype"
+   },
+   "keygrid_status_invalid": {
+      "description": "Validity status of a PGP key.",
+      "message": "ongeldig"
+   },
+   "keygrid_status_valid": {
+      "description": "Validity status of a PGP key.",
+      "message": "geldig"
+   },
+   "keygrid_subkeyid": {
+      "description": "Subkey ID of a PGP key.",
+      "message": "ID"
+   },
+   "keygrid_subkeys": {
+      "description": "Subkeys of a PGP key.",
+      "message": "Subsleutels"
+   },
+   "keygrid_user_email": {
+      "description": "Email address in User ID of a PGP key.",
+      "message": "Email"
+   },
+   "keygrid_user_ids": {
+      "description": "User IDs of a PGP key.",
+      "message": "Gebruikers-ID's"
+   },
+   "keygrid_user_name": {
+      "description": "Name in User ID of a PGP key.",
+      "message": "Naam"
+   },
+   "keygrid_userid": {
+      "description": "User ID of a PGP key.",
+      "message": "ID"
+   },
+   "keygrid_userid_signatures": {
+      "description": "Signatures on User ID of a PGP key.",
+      "message": "Handtekeningen"
+   },
+   "keygrid_validity_status": {
+      "description": "Validity status of a PGP key.",
+      "message": "Status"
+   },
+   "keyring_backup": {
+      "description": "Title of keyring backup view",
+      "message": "Sleutelbosback-up"
+   },
+   "keyring_confirm_deletion": {
+      "description": "Confirmation message prompted when a keyring is deleted",
+      "message": "Wilt u de sleutelring verwijderen met ID: $1?"
+   },
+   "keyring_display_keys": {
+      "description": "Tab of keyring to display keys.",
+      "message": "Sleutels weergeven"
+   },
+   "keyring_export_keys": {
+      "description": "Tab of keyring to export keys.",
+      "message": "Sleutelbos exporteren"
+   },
+   "keyring_generate_key": {
+      "description": "Tab of keyring to generate key.",
+      "message": "Sleutel aanmaken"
+   },
+   "keyring_header": {
+      "description": "Header of the key ring.",
+      "message": "Sleutelbeheer"
+   },
+   "keyring_import_keys": {
+      "description": "Tab of keyring to import keys.",
+      "message": "Sleutels importeren"
+   },
+   "keyring_keypair": {
+      "description": "key pair",
+      "message": "Sleutelpaar"
+   },
+   "keyring_private": {
+      "description": "private key type",
+      "message": "Privé"
+   },
+   "keyring_public": {
+      "description": "public key type",
+      "message": "Openbaar"
+   },
+   "keyring_public_private": {
+      "description": "public and private key types",
+      "message": "Sleutelparen"
+   },
+   "keyring_setup": {
+      "description": "Setup keyring for mail provider.",
+      "message": "Configuratie"
+   },
+   "keyring_setup_generate_key": {
+      "description": "Generate key",
+      "message": "Sleutel aanmaken"
+   },
+   "keyring_setup_generate_key_explanation": {
+      "description": "Generate key",
+      "message": "Als je deze extensie voor de eerste keer gebruikt en nog geen sleutelpaar hebt, maak er dan nu een aan."
+   },
+   "keyring_setup_import_key": {
+      "description": "Import key",
+      "message": "Sleutel importeren"
+   },
+   "keyring_setup_import_key_explanation": {
+      "description": "Import key",
+      "message": "Heb je al een sleutelpaar op een ander apparaat? Je kan je bestaande sleutels importeren. Exporteer gewoon het sleutelpaar van het andere apparaat en importeer het hier."
+   },
+   "keyring_setup_no_keypair": {
+      "description": "Setup text if no keypair available",
+      "message": "Een sleutelpaar is vereist om berichten te versleutelen en te ontsleutelen, en om uw contacten uit te nodigen voor end-to-end versleutelde communicatie."
+   },
+   "keyring_setup_no_keypair_heading": {
+      "description": "Setup heading if no keypair available",
+      "message": "Deze sleutelbos bevat nog geen sleutelpaar."
+   },
+   "keyserver_hkp_url": {
+      "description": "HKP key server option: url.",
+      "message": "HKP-sleutelserver"
+   },
+   "keyserver_tofu_label": {
+      "description": "Mailvelope Key Server Settings Label",
+      "message": "Mailvelope-sleutelserver"
+   },
+   "keyserver_tofu_lookup": {
+      "description": "Enable Mailvelope Key Server Auto Lookup",
+      "message": "Zoeken sleutels van ontvangers automatisch op"
+   },
+   "keyserver_url_error": {
+      "description": "HKP key server URL error.",
+      "message": "Sleutel server kan niet worden bereikt"
+   },
+   "keyserver_url_warning": {
+      "description": "HKP key server url warning.",
+      "message": "Sleutelserver-URL moet voldoen aan het volgende formaat: http(s)://keys.voorbeeld.be"
+   },
+   "learn_more_link": {
+      "description": "Text of a link to a learn-more resource",
+      "message": "Lees meer"
+   },
+   "message_no_keys": {
+      "description": "Decrypt error message.",
+      "message": "Geen privésleutel gevonden voor dit bericht. Vereiste privésleutel-ID: $1"
+   },
+   "message_read_error": {
+      "description": "Message read error message: $1: error message.",
+      "message": "Kon dit bericht niet ontsleutelen: $1"
+   },
+   "options_about": {
+      "description": "Options navigation: About.",
+      "message": "Over"
+   },
+   "options_docu": {
+      "description": "Options navigation: Documentation.",
+      "message": "Documentatie"
+   },
+   "options_home": {
+      "description": "Options navigation: Home.",
+      "message": "Opties"
+   },
+   "options_settings": {
+      "description": "Options header: Settings.",
+      "message": "Instellingen"
+   },
+   "options_title": {
+      "description": "Title of options page.",
+      "message": "Opties voor Mailvelope"
+   },
+   "pwd_dialog_cache_pwd": {
+      "description": "Checkbox label for remembering of the password.",
+      "message": "Wachtwoord tijdelijk onthouden"
+   },
+   "pwd_dialog_cancel": {
+      "description": "User canceled key unlock dialog.",
+      "message": "Sleutelontgrendeling geannuleerd."
+   },
+   "pwd_dialog_header": {
+      "description": "Header of the password dialog.",
+      "message": "Sleutelwachtwoord invoeren"
+   },
+   "pwd_dialog_keyid_tooltip": {
+      "description": "Tooltip explaining the key id.",
+      "message": "De ID van je sleutel"
+   },
+   "pwd_dialog_pwd_please": {
+      "description": "Placeholder for password.",
+      "message": "Voer je wachtwoord in"
+   },
+   "pwd_dialog_reason_create_backup": {
+      "description": "",
+      "message": "Voer je sleutelwachtwoord in om een hersteloverzicht aan te maken."
+   },
+   "pwd_dialog_reason_create_draft": {
+      "description": "",
+      "message": "Voer sleutelwachtwoord in om het concept op te slaan."
+   },
+   "pwd_dialog_reason_decrypt": {
+      "description": "",
+      "message": "Voer je sleutelwachtwoord in om dit bericht te ontsleutelen."
+   },
+   "pwd_dialog_reason_editor": {
+      "description": "",
+      "message": "Voer je sleutelwachtwoord in om de instellingen voor versleutelde communicatie bij te werken."
+   },
+   "pwd_dialog_reason_sign": {
+      "description": "",
+      "message": "Voer je sleutelwachtwoord in om dit bericht te ondertekenen."
+   },
+   "pwd_dialog_title": {
+      "description": "Title of the password dialog.",
+      "message": "Voer een wachtwoord in | Mailvelope"
+   },
+   "pwd_dialog_userid": {
+      "description": "Label for user ID.",
+      "message": "Gebr.-ID:"
+   },
+   "pwd_dialog_wrong_pwd": {
+      "description": "Password error message.",
+      "message": "Verkeerd wachtwoord"
+   },
+   "recovery_sheet_backup_data": {
+      "description": "",
+      "message": "Back-up van je gegevens"
+   },
+   "recovery_sheet_backup_local": {
+      "description": "",
+      "message": "Als je je gegevens enkel lokaal op je computer wil opslaan kan je hiervoor een optie vinden in de instellingen voor versleutelde communicatie van je [BRAND]-account."
+   },
+   "recovery_sheet_backup_server": {
+      "description": "",
+      "message": "Om de gegevens belangrijk voor versleutelde communicatie (bv. sleutelwachtwoord) te back-uppen worden de gegevens versleuteld opgeslagen op onze [BRAND]-servers door onze beveiligingspartner Mailvelope."
+   },
+   "recovery_sheet_be_aware": {
+      "description": "Label",
+      "message": "Wees je ervan bewust"
+   },
+   "recovery_sheet_check_settings": {
+      "description": "",
+      "message": "A.u.b. bekijk de instellingen in uw account onder:"
+   },
+   "recovery_sheet_creation_date": {
+      "description": "Label for recovery sheet creation date",
+      "message": "Datum van aanmaak:"
+   },
+   "recovery_sheet_data_lost": {
+      "description": "",
+      "message": "Zonder een back-up kunnen je versleutelde berichten niet worden ontsleuteld als je je sleutelwachtwoord zou verliezen, als je apparaat kapot is of als er zich problemen met de browsersextensie voordoen."
+   },
+   "recovery_sheet_encryption_note": {
+      "description": "Sub title",
+      "message": "Hints voor versleutelde communicatie met [BRAND]"
+   },
+   "recovery_sheet_enter_code": {
+      "description": "Label for navigation path",
+      "message": "Voor de installatie op andere computers voert u de herstelcode in de instellingen in onder:"
+   },
+   "recovery_sheet_explain_pgp": {
+      "description": "",
+      "message": "Versleutelde communicatie met [BRAND] is een op PGP gebaseerde procedure. Hiermee kunt u versleutelde e-mails verzenden en zorgt u er tegelijkertijd voor dat alleen u en de ontvanger deze kunnen lezen."
+   },
+   "recovery_sheet_extension_problems": {
+      "description": "List item",
+      "message": "door problemen met de browserextensie"
+   },
+   "recovery_sheet_forgot_password": {
+      "description": "List item",
+      "message": "omdat je het wachtwoord voor je sleutel bent vergeten"
+   },
+   "recovery_sheet_further_info": {
+      "description": "",
+      "message": "Je kan meer informatie en instellingen vinden in je [BRAND]-account onder"
+   },
+   "recovery_sheet_header": {
+      "description": "Title of recovery sheet.",
+      "message": "Belangrijke informatie!"
+   },
+   "recovery_sheet_in_general": {
+      "description": "Label",
+      "message": "In het algemeen, is het belangrijk"
+   },
+   "recovery_sheet_invite_contacts": {
+      "description": "",
+      "message": "In uw versleutelde communicatie-instellingen van uw [BRAND] -account, hebt u de mogelijkheid om extra contactpersonen uit te nodigen om versleutelde communicatie via PGP te gebruiken. Contactpersonen die al zijn uitgenodigd, kunnen worden herkend aan het hangslot pictogram naast het e-mailadres."
+   },
+   "recovery_sheet_keep_safe": {
+      "description": "",
+      "message": "Bewaar een afdruk van dit document op een veilige plaats en zorg dat niemand anders toegang tot de herstelcode heeft."
+   },
+   "recovery_sheet_key_server": {
+      "description": "",
+      "message": "Andere gebruikers van [BRAND] die de PGP-procedure van GMX gebruiken kunnen gevonden worden in een centrale map in je [BRAND]-account. Als je geen items in deze map wil hebben kan je deze functie uitschakelen in de instellingen van je [BRAND]-account."
+   },
+   "recovery_sheet_mobile_devices": {
+      "description": "",
+      "message": "Op mobiele apparaten"
+   },
+   "recovery_sheet_not_working": {
+      "description": "Label for list",
+      "message": "Als uw versleutelde communicatie niet langer werkt, bijvoorbeeld:"
+   },
+   "recovery_sheet_other_computer": {
+      "description": "",
+      "message": "Op een andere computer"
+   },
+   "recovery_sheet_other_contacts": {
+      "description": "",
+      "message": "Versleutelde communicatie met andere contacten"
+   },
+   "recovery_sheet_other_devices": {
+      "description": "Sub title",
+      "message": "Versleutelde communicatie op andere apparaten"
+   },
+   "recovery_sheet_other_devices_setup": {
+      "description": "",
+      "message": "Versleutelde communicatie op andere apparaten wordt ingesteld"
+   },
+   "recovery_sheet_other_problems": {
+      "description": "List item",
+      "message": "voor andere redenen"
+   },
+   "recovery_sheet_pgp_compat": {
+      "description": "",
+      "message": "Je kan veilig communiceren met andere contacten als ze ook gebruik maken van versleutelde communicatie (PGP)."
+   },
+   "recovery_sheet_print_block": {
+      "description": "Sub title of recovery sheet.",
+      "message": "Bewaar dit document op een veilige plaats!"
+   },
+   "recovery_sheet_print_button": {
+      "description": "",
+      "message": "Afdrukken"
+   },
+   "recovery_sheet_print_notice": {
+      "description": "Sub title of recovery sheet.",
+      "message": "Druk dit document af en bewaar het op een veilige plaats!"
+   },
+   "recovery_sheet_provider_communication": {
+      "description": "",
+      "message": "Versleutelde communicatie"
+   },
+   "recovery_sheet_provider_inbox": {
+      "description": "",
+      "message": "Postvak IN"
+   },
+   "recovery_sheet_provider_security": {
+      "description": "",
+      "message": "Beveiliging"
+   },
+   "recovery_sheet_provider_settings": {
+      "description": "",
+      "message": "Instellingen"
+   },
+   "recovery_sheet_qr_code": {
+      "description": "",
+      "message": "Scan de QR-code met je mobiele apparaat."
+   },
+   "recovery_sheet_recommendation": {
+      "description": "",
+      "message": "Aanbeveling"
+   },
+   "recovery_sheet_recover_data": {
+      "description": "Sub title",
+      "message": "Gegevens worden hersteld"
+   },
+   "recovery_sheet_recovery_code": {
+      "description": "",
+      "message": "Herstelcode"
+   },
+   "recovery_sheet_subtitle_receipt": {
+      "description": "Sub title of recovery sheet.",
+      "message": "Hersteloverzicht voor versleutelde communicatie"
+   },
+   "recovery_sheet_subtitle_recover": {
+      "description": "Sub title",
+      "message": "Versleutelde communicatie herstellen"
+   },
+   "recovery_sheet_trusted_contacts": {
+      "description": "",
+      "message": "Met GMX-contacten kunt u er zeker van zijn dat de weergegeven gebruikers in feite geldige gebruikers zijn. U moet echter altijd de identiteit van contactpersonen verifiëren met een e-mailadres van een andere e-mailprovider."
+   },
+   "recovery_sheet_unknown_third": {
+      "description": "",
+      "message": "Stel versleutelde communicatie enkel in op veilige apparaten die niet toegankelijk zijn voor onbekenden."
+   },
+   "recovery_sheet_unlock_backup": {
+      "description": "",
+      "message": "De back-up van je gegevens kan enkel ontsleuteld worden met de herstelcode op dit hersteloverzicht."
+   },
+   "reload_webmail_tab": {
+      "description": "Info message.",
+      "message": "A.u.b. herlaad uw email provider pagina voor de instellingen toe te passen"
+   },
+   "restore_backup_dialog_button": {
+      "description": "",
+      "message": "Bevestigen"
+   },
+   "restore_backup_dialog_headline": {
+      "description": "",
+      "message": "A.u.b. invoeren uw herstel code:"
+   },
+   "restore_password_dialog_button": {
+      "description": "",
+      "message": "Tonen"
+   },
+   "restore_password_dialog_headline": {
+      "description": "",
+      "message": "Je sleutelwachtwoord:"
+   },
+   "security_background_angle": {
+      "description": "Angle",
+      "message": "Hoek"
+   },
+   "security_background_button_title": {
+      "description": "The tooltip text for the keylock button",
+      "message": "De beveiligingsachtergrond kan aangepast worden in de Mailvelope-opties"
+   },
+   "security_background_coloring": {
+      "description": "Coloring",
+      "message": "Kleur"
+   },
+   "security_background_header": {
+      "description": "Security background header",
+      "message": "Beveiligingsachtergrond"
+   },
+   "security_background_preview": {
+      "description": "Preview",
+      "message": "Voorbeeld"
+   },
+   "security_background_scaling": {
+      "description": "Scaling",
+      "message": "Opschalen"
+   },
+   "security_background_text": {
+      "description": "Security background text",
+      "message": "De beveiligingsachtergrond helpt manipulatie van gebruikersinterfaces door websites en applicaties van derden te voorkomen. Om de veiligheid te vergroten, maakt en wijzigt u uw aangepaste Mailvelope achtergrond hier."
+   },
+   "security_cache_header": {
+      "description": "Password cache header",
+      "message": "Onthoud wachtwoorden voor deze browsersessie."
+   },
+   "security_cache_help": {
+      "description": "Help text for cache time.",
+      "message": "Moet een cijfer tussen 1-999 zijn"
+   },
+   "security_cache_off": {
+      "description": "Don't store password.",
+      "message": "Nee."
+   },
+   "security_cache_on": {
+      "description": "Store password in memory for $1 minutes.",
+      "message": "Ja, in geheugen houden gedurende"
+   },
+   "security_cache_time": {
+      "description": "Store password in memory for $1 minutes.",
+      "message": "minuten"
+   },
+   "security_display_decrypted": {
+      "description": "Label for display options",
+      "message": "Waar worden de ontsleutelde berichten weergegeven?"
+   },
+   "security_display_inline": {
+      "description": "Decrypted message display option",
+      "message": "Op de pagina van de email provider"
+   },
+   "security_display_popup": {
+      "description": "Decrypted message display option",
+      "message": "In een aparte Mailvelope-popup."
+   },
+   "security_log_action": {
+      "description": "Title of the action column of the security log table.",
+      "message": "Actie"
+   },
+   "security_log_add_attachment": {
+      "description": "A click on the attachment upload button as an event type",
+      "message": "Knop 'Bijlage toevoegen' aangeklikt"
+   },
+   "security_log_attachment_added": {
+      "description": "Attachment added as an event type",
+      "message": "Bijlage geüpload"
+   },
+   "security_log_attachment_download": {
+      "description": "Attachment downloaded as an event source",
+      "message": "Bijlage gedownload"
+   },
+   "security_log_backup_code_input": {
+      "description": "",
+      "message": "Invoer code herstellen"
+   },
+   "security_log_backup_create": {
+      "description": "",
+      "message": "Klik om een back-up te maken"
+   },
+   "security_log_backup_restore": {
+      "description": "",
+      "message": "Klik om de back-up te herstellen"
+   },
+   "security_log_content_copy": {
+      "description": "",
+      "message": "Kopie verifiëren in dialoogvenster"
+   },
+   "security_log_dialog_cancel": {
+      "description": "",
+      "message": "Klik om te annuleren in het dialoogvenster"
+   },
+   "security_log_dialog_encrypt": {
+      "description": "",
+      "message": "Klik voor het coderen in het dialoogvenster"
+   },
+   "security_log_dialog_ok": {
+      "description": "",
+      "message": "Klik om te bevestigen in het dialoogvenster"
+   },
+   "security_log_dialog_sign": {
+      "description": "",
+      "message": "Klik om in te loggen dialoogvenster"
+   },
+   "security_log_editor": {
+      "description": "Message editor container as an event source",
+      "message": "PGP Editor"
+   },
+   "security_log_email_viewer": {
+      "description": "Email decryption container as an event source",
+      "message": "Ontsleuteld PGP Email"
+   },
+   "security_log_empty": {
+      "description": "Message when the security log is empty",
+      "message": "Geen vermeldingen"
+   },
+   "security_log_encrypt_dialog": {
+      "description": "Encrypt dialog as an event source",
+      "message": "Versleuteldialoog"
+   },
+   "security_log_encryption_operation": {
+      "description": "",
+      "message": "Bericht is versleuteld voor: $1"
+   },
+   "security_log_import_dialog": {
+      "description": "Key import dialog as an event source",
+      "message": "Importdialoog"
+   },
+   "security_log_key_backup": {
+      "description": "Message keybackup container as an event source",
+      "message": "Sleutelback-up"
+   },
+   "security_log_key_generator": {
+      "description": "Key generator container as an event source",
+      "message": "Sleutelgenerator"
+   },
+   "security_log_password_click": {
+      "description": "",
+      "message": "Klik in het wachtwoord dialoogvenster"
+   },
+   "security_log_password_dialog": {
+      "description": "Password dialog as an event source",
+      "message": "Wachtwoorddialoog"
+   },
+   "security_log_password_input": {
+      "description": "",
+      "message": "Invoer in wachtwoord dialoogvenster"
+   },
+   "security_log_remove_attachment": {
+      "description": "A click on the attachment remove button as event type",
+      "message": "Bijlage verwijderd"
+   },
+   "security_log_restore_backup_click": {
+      "description": "",
+      "message": "Klik in het dialoogvenster Back-up herstellen"
+   },
+   "security_log_sign_dialog": {
+      "description": "Sign dialog as an event source",
+      "message": "Tekendialoog"
+   },
+   "security_log_signature_modal_close": {
+      "description": "",
+      "message": "Klik om het handtekeningvenster te sluiten"
+   },
+   "security_log_signature_modal_open": {
+      "description": "",
+      "message": "Klik om het handtekeningvenster te openen"
+   },
+   "security_log_source": {
+      "description": "Title of the source column of the security log table.",
+      "message": "Bron"
+   },
+   "security_log_text": {
+      "description": "Text explaining the purpose of the security log",
+      "message": "Het beveiligingslog toont gebruikersacties in alle onderdelen van Mailvelope."
+   },
+   "security_log_text_input": {
+      "description": "User clicked in text area",
+      "message": "Invoer in tekstveld"
+   },
+   "security_log_textarea_click": {
+      "description": "User clicked in text area",
+      "message": "Klik in tekstgebied"
+   },
+   "security_log_textarea_input": {
+      "description": "User clicked in text area",
+      "message": "Invoer in tekstgebied"
+   },
+   "security_log_textarea_select": {
+      "description": "Selection of the text area as an event type",
+      "message": "Selecteer in tekstgebied"
+   },
+   "security_log_timestamp": {
+      "description": "Title of the timestamp column of the security log table.",
+      "message": "Tijdstempel"
+   },
+   "security_log_verify_dialog": {
+      "description": "Verify dialog as an event source",
+      "message": "Bevestigingsdialoog"
+   },
+   "settings_backup": {
+      "description": "Tab allowing to backup and restore the settings.",
+      "message": "Back-up"
+   },
+   "settings_general": {
+      "description": "Tab of options to display general settings.",
+      "message": "Algemeen"
+   },
+   "settings_keyserver": {
+      "description": "Tab of options to display key server settings.",
+      "message": "Sleutelserver"
+   },
+   "settings_security": {
+      "description": "Tab of options to display security settings.",
+      "message": "Beveiliging"
+   },
+   "settings_security_log": {
+      "description": "Tab of options to display security log.",
+      "message": "Beveiligingslog"
+   },
+   "settings_watchlist": {
+      "description": "Tab of options to display list of supported mail providers.",
+      "message": "Lijst van Email providers"
+   },
+   "sign_dialog_header": {
+      "description": "Header of sign dialog.",
+      "message": "Bericht ondertekenen met sleutel:"
+   },
+   "text_compose_header": {
+      "description": "Text encryption feature header",
+      "message": "Componeren bericht"
+   },
+   "text_decrypt_button": {
+      "description": "Button label for decrypting the message",
+      "message": "Ontsleutelen"
+   },
+   "text_decrypting": {
+      "description": "Navigation link to text decryption feature",
+      "message": "Tekst Ontsleuteling"
+   },
+   "text_encrypting": {
+      "description": "Navigation link to text encryption feature",
+      "message": "Tekst Versleuteling"
+   },
+   "text_paste_armored_header": {
+      "description": "Text decryption armored block header",
+      "message": "Plak versleutelde PGP bericht"
+   },
+   "text_result_header": {
+      "description": "Text encryption result header",
+      "message": "Versleutelde bericht"
+   },
+   "upload_aborting_warning": {
+      "description": "A warning for the aborting of the file upload.",
+      "message": "Bestandsupload zal worden afgebroken."
+   },
+   "upload_attachment": {
+      "description": "Text in the upload attachment button of the message editor dialog",
+      "message": "Bijlage toevoegen"
+   },
+   "upload_quota_exceeded_warning": {
+      "description": "A warning shown when the attachments upload quota is exceeded.",
+      "message": "Toegestane grootte van de bijlage:"
+   },
+   "upload_quota_warning_headline": {
+      "description": "",
+      "message": "Bijlage is te groot"
+   },
+   "verify_error": {
+      "description": "Error during verification process.",
+      "message": "Kon dit bericht niet verificeren: $1"
+   },
+   "verify_result_error": {
+      "description": "Verfiy signature error. Wrong signature of [userid].",
+      "message": "Ongeldige handtekening van"
+   },
+   "verify_result_success": {
+      "description": "Verfiy signature succeeded.",
+      "message": "Ondertekend door"
+   },
+   "verify_result_warning": {
+      "description": "Verfiy signature warning.",
+      "message": "Ondertekend met een onbekende sleutel"
+   },
+   "waiting_dialog_decryption_failed": {
+      "description": "Error message in the waiting dialog after failing to decrypt a message",
+      "message": "Ontsleuteling mislukt!"
+   },
+   "waiting_dialog_prepare_email": {
+      "description": "Message in the waiting dialog for quoting email",
+      "message": "Je bericht wordt voorbereid..."
+   },
+   "watchlist_command_create": {
+      "description": "Create entry in watchlist.",
+      "message": "Nieuw record toevoegen"
+   },
+   "watchlist_command_edit": {
+      "description": "Edit entry in watchlist.",
+      "message": "Bewerk"
+   },
+   "watchlist_delete_confirmation": {
+      "description": "Mesage in the watchlist delete confirmation dialog.",
+      "message": "Wilt u deze site echt verwijderen uit de lijst met email providers?"
+   },
+   "watchlist_expose_api": {
+      "description": "Expose API to Webmailer.",
+      "message": "API"
+   },
+   "watchlist_record_title": {
+      "description": "Title of the watchlist editor dialog.",
+      "message": "Email Provider"
+   },
+   "watchlist_title_active": {
+      "description": "Entry in watchlist is active.",
+      "message": "Ingeschakeld"
+   },
+   "watchlist_title_frame": {
+      "description": "Web domain URL match pattern of site in watchlist.",
+      "message": "Domeinpatroon"
+   },
+   "watchlist_title_scan": {
+      "description": "Scan status of site in watchlist.",
+      "message": "Ingeschakeld"
+   },
+   "watchlist_title_site": {
+      "description": "Site in watchlist.",
+      "message": "Site"
+   },
+   "word_or": {
+      "description": "Separate list of elements.",
+      "message": "of"
+   },
+   "wrong_restore_code": {
+      "description": "",
+      "message": "Ongeldige herstel code"
+   }
+}

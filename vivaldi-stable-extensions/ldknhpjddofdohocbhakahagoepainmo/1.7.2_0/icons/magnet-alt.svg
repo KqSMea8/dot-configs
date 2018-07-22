@@ -1,0 +1,68 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+	viewBox="0 0 16 16"
+>
+	<defs>
+    <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#900D00"/>
+      <stop offset="100%" stop-color="#A00D00"/>
+    </linearGradient>
+    <linearGradient id="transparent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0.25"/>
+    </linearGradient>
+		<path
+			id="magnet"
+  		d="M 2 5 v 4 a 1 1 0 0 0 12 0 v -4 h -3 v 4 a 2 2 0 0 1 -6 0 v -4 z"
+  		vector-effect="non-scaling-stroke"
+      transform="rotate(180 8 8)"
+		/>
+    <path
+      id="squares"
+      d="M2 1h3v4H2zm9 0h3v4h-3z"
+      vector-effect="non-scaling-stroke"
+      transform="rotate(180 8 8)"
+    />
+		<clipPath id="magnet-cp">
+		  <use xlink:href="#magnet"/>
+		</clipPath>
+    <clipPath id="squares-cp">
+      <use xlink:href="#squares"/>
+    </clipPath>
+	</defs>
+  <use
+    xlink:href="#squares"
+    fill="#DDD"
+    stroke="#999"
+    stroke-width="2"
+    paint-order="stroke"
+    stroke-linejoin="round"
+  />
+  <use
+    xlink:href="#squares"
+    clip-path="url(#squares-cp)"
+    fill="transparent"
+    stroke="rgba(255, 255, 255, 0.2)"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+	<use
+		xlink:href="#magnet"
+  	fill="#CC1100"
+  	strokex="#900D00"
+    stroke="url(#linear)"
+  	stroke-width="2"
+  	paint-order="stroke"
+  />
+  <use
+    xlink:href="#magnet"
+    clip-path="url(#magnet-cp)"
+    fill="transparent"
+    strokex="rgba(255, 255, 255, 0.2)"
+    stroke="url(#transparent)"
+
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+</svg>

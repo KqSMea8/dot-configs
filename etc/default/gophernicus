@@ -7,4 +7,4 @@
 # OPTIONS="-h full.hostname -D \"I find your lack of gopher disturbing.\""
 #
 # Uncomment and add your options here:
-#OPTIONS=""
+OPTIONS="-h 88.193.149.59"

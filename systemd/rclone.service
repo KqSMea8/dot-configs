@@ -1,0 +1,7 @@
+[Unit]
+Description=rclone stuff to Dropbox site
+
+[Service]
+Type=oneshot
+ExecStart=/home/michael/MEGA/bin/rclone.sh
+

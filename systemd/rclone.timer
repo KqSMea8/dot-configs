@@ -2,7 +2,7 @@
 Description=Execute backup every day twice per hour
 
 [Timer]
-OnCalendar=*-*-* *:0/30
+OnCalendar=*-*-* *:25/30
 Persistent=true
 Unit=rclone.service
 

@@ -3,7 +3,7 @@ Description=Execute backup every day every hour
 
 [Timer]
 OnCalendar=*-*-* 00/1:05:00
-Persistent=true
+#Persistent=true
 Unit=syncGcal.service
 
 [Install]

@@ -1,7 +1,0 @@
-[Unit]
-Description=rsync stuff to shtf folder
-
-[Service]
-Type=oneshot
-ExecStart=/home/michael/MEGA/bin/shtf.sh
-

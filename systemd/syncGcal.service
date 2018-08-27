@@ -1,7 +1,0 @@
-[Unit]
-Description=Synchronize google calendar for org agenda
-
-[Service]
-Type=oneshot
-ExecStart=/home/michael/MEGA/bin/syncGcal.sh
-

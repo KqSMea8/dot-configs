@@ -1,7 +1,0 @@
-[Unit]
-Description=Sync from termux
-
-[Service]
-Type=oneshot
-ExecStart=/home/michael/MEGA/bin/termuxFrom.sh
-

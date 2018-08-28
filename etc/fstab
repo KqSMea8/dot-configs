@@ -1,11 +1,11 @@
 # /dev/sda1
-UUID=B5E2-6992      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+UUID=39F5-A158      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
 
-# /dev/sda2
-UUID=ecd7676c-332b-42b3-adc7-410cc1bff9e6	/         	ext4      	rw,relatime,data=ordered 0 1
+# /dev/sda2 LABEL=Arch
+UUID=a4928b52-be35-4d47-9317-a6d412d7c6bc	/         	btrfs     	rw,noatime,nodiratime,compress=lzo,space_cache,autodefrag,subvolid=5,subvol=/	0 0
 
 # /dev/sda3
-UUID=b0bd4364-e13d-4eb6-be5c-b41cc3b25244	none      	swap      	defaults,pri=-2	0 0
+UUID=05a4393f-0f44-4af2-9282-4d702e31354d	none      	swap      	defaults,pri=-2	0 0
 
 # /dev/sda4
 UUID=c8e4378d-b7e5-45a2-96bd-b13ecdee5079	/home     	btrfs      	defaults,noatime,nodiratime,autodefrag 0 0

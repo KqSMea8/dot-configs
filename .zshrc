@@ -55,7 +55,7 @@ plugins=(git)
 
 # User configuration
 
-  export PATH="/home/michael/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/michael/MEGA/bin:$PATH"
+  export PATH="/home/michael/.local/bin:/home/michael/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/michael/MEGA/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
   export JAVA_HOME=/usr/lib/jvm/default
@@ -100,7 +100,7 @@ alias m="cd ~/MEGA"
 alias t="cd ~/bin/tor-browser_en-US/"
 alias b="cd ~/MEGA/bin/"
 alias w="cd ~/MEGA/myWritings"
-alias ll='LC_COLLATE=C ls -alF'
+alias ll='ls -alF'
 
 #alias ss="~/bin/suspend.sh"
 #alias sh="~/bin/hibernate.sh"

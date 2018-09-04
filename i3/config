@@ -167,7 +167,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
 	position top
-	status_command i3status
+	# status_command i3status
+	status_command i3blocks
 }
 
 
@@ -177,8 +178,12 @@ smart_gaps on
 gaps inner 2
 
 # Keyboard / background
-# exec "setxkbmap -layout fi"
+exec "setxkbmap -layout fi -option caps:backspace"
 exec_always feh --bg-scale ~/Pictures/arch.jpg
+
+# Execute on startup
+exec megasync
+exec yandex-disk-indicator
 
 # lock and sleep
 set $Locker i3lock -c 000000 -n && sleep 1

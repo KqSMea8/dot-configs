@@ -12,26 +12,26 @@ markup=none
 #
 # If the instance is not specified, use the interface used for default route.
 # The address can be forced to IPv4 or IPv6 with -4 or -6 switches.
-##[iface]
-##instance=wlan0
-##color=#00FF00
-##interval=10
-##separator=false
-
-##[wifi]
-##instance=wlp3s0
-##interval=10
-##separator=false
-
-[external-ip]
-command=~/MEGA/bin/myip.sh
+[iface]
+#instance=wlan0
 color=#00FF00
-interval=15
+interval=10
+separator=false
+
+[wifi]
+#instance=wlp3s0
+interval=10
+separator=false
 
 # Battery indicator
 [battery]
 label=BAT
 interval=30
+
+[external-ip]
+command=~/MEGA/bin/myip.sh
+color=#00FF00
+interval=15
 
 # Date Time
 [time]

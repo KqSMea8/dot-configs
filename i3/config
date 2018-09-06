@@ -224,7 +224,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id pa-applet
 exec --no-startup-id megasync
 exec --no-startup-id yandex-disk-indicator
-exec_always --no-startup-id xautolock -time 15  -locker "systemctl suspend-then-hibernate"
+#exec_always --no-startup-id xautolock -time 15  -locker "systemctl suspend-then-hibernate"
+exec_always --no-startup-id xautolock -time 15 -locker ~/MEGA/bin/lock.sh
 
 # lock and sleep
 set $Locker i3lock -c 000000 -n && sleep 1
@@ -233,9 +234,12 @@ set $mode_system System (l) lock, (e) logout, (s) suspend, (a) suspend-then-hibe
 mode "$mode_system" {
     bindsym l exec --no-startup-id $Locker, mode "default"
     bindsym e exec --no-startup-id i3-msg exit, mode "default"
-    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
-    bindsym a exec --no-startup-id $Locker && systemctl suspend-then-hibernate, mode "default"
-    bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
+#    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
+#    bindsym a exec --no-startup-id $Locker && systemctl suspend-then-hibernate, mode "default"
+#    bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
+    bindsym s exec --no-startup-id systemctl suspend, mode "default"
+    bindsym a exec --no-startup-id systemctl suspend-then-hibernate, mode "default"
+    bindsym h exec --no-startup-id systemctl hibernate, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
 

@@ -101,6 +101,7 @@ alias t="cd ~/bin/tor-browser_en-US/"
 alias b="cd ~/MEGA/bin/"
 alias w="cd ~/MEGA/myWritings"
 alias ll='ls -alF'
+alias r="ranger"
 
 #alias ss="~/bin/suspend.sh"
 #alias sh="~/bin/hibernate.sh"

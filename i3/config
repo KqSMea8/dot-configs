@@ -105,7 +105,7 @@ set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
-set $ws9 "9"
+set $ws9 "9" output HDMI-1
 set $ws10 "10"
 
 # switch to workspace
@@ -164,14 +164,31 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
+########## My additions ##########
+# Disable window titlebars entirely
+#for_window [class="^.*"] border pixel 0
+default_border pixel 0
+
+# Monitors
+bindsym $mod+m         exec xrandr --output HDMI-0 --off
+bindsym $mod+shift+m   exec xrandr --output HDMI-0 --auto --right-of eDP
+
+# colors
+client.focused              #6f6f6f #6f6f6f #DCDCCC #3f3f3f
+#client.focused              #688060 #688060 #303030 #ffcfaf
+client.focused_inactive     #3f3f3f #3F3F3F #7f9f7f #3f3f3f
+client.unfocused            #3f3f3f #3F3F3F #DCDCCC #3f3f3f
+client.urgent               #dca3a3 #dca3a3 #DCDCCC #3f3f3f
 
 bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+	output eDP
 	position top
-	font pango:monospace 12
+	#tray_output primary
+	font pango:monospace, otf-font-awesome 12
 	#status_command i3status
 	#status_command i3blocks
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
@@ -211,14 +228,12 @@ bar {
 
 }
 
-
-########## My additions ##########
 # gaps
 smart_gaps on
-gaps inner 2
+gaps inner 5
 
 # Keyboard / background
-exec "setxkbmap -layout fi -option caps:backspace"
+exec setxkbmap -layout fi -option caps:backspace
 exec_always feh --bg-scale ~/Pictures/arch.jpg
 
 # Execute on startup

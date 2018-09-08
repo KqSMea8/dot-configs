@@ -105,7 +105,7 @@ set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
-set $ws9 "9" output HDMI-1
+set $ws9 "9"
 set $ws10 "10"
 
 # switch to workspace
@@ -131,6 +131,10 @@ bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
+
+# switch next/prev
+bindsym $mod+Ctrl+Left workspace prev
+bindsym $mod+Ctrl+Right workspace next
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -175,7 +179,6 @@ bindsym $mod+shift+m   exec xrandr --output HDMI-0 --auto --right-of eDP
 
 # colors
 client.focused              #6f6f6f #6f6f6f #DCDCCC #3f3f3f
-#client.focused              #688060 #688060 #303030 #ffcfaf
 client.focused_inactive     #3f3f3f #3F3F3F #7f9f7f #3f3f3f
 client.unfocused            #3f3f3f #3F3F3F #DCDCCC #3f3f3f
 client.urgent               #dca3a3 #dca3a3 #DCDCCC #3f3f3f
@@ -184,39 +187,22 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+font pango:mono 11
+
 bar {
 	output eDP
 	position top
-	#tray_output primary
 	font pango:monospace, otf-font-awesome 12
-	#status_command i3status
-	#status_command i3blocks
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
-
-	#mode hide
-	#hidden_state hide
-	#modifier Mod1
-
-	############################################################
-	# colors {						   #
-	#        background #000000				   #
-	#        statusline #ffffff				   #
-	#        separator #666666				   #
-	# 							   #
-	#        focused_workspace  #4c7899 #285577 #ffffff	   #
-	#        active_workspace   #333333 #5f676a #ffffff	   #
-	#        inactive_workspace #333333 #222222 #888888	   #
-	#        urgent_workspace   #2f343a #900000 #ffffff	   #
-	#        binding_mode       #2f343a #900000 #ffffff	   #
-	#        }						   #
-	############################################################
+	mode dock
+	modifier None
 
 	set $bg-color 	         #2f343f
 	set $inactive-bg-color   #2f343f
 	set $text-color          #f3f4f5
 	set $inactive-text-color #676E7D
 	set $urgent-bg-color     #E53935
-
+					
 	colors {
 		background $bg-color
 	    	separator #757575
@@ -225,7 +211,6 @@ bar {
 		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 	}
-
 }
 
 # gaps

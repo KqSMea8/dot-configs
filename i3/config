@@ -218,7 +218,7 @@ smart_gaps on
 gaps inner 5
 
 # Keyboard / background
-exec setxkbmap -layout fi -option caps:backspace
+# exec setxkbmap -layout fi -option caps:backspace
 exec_always feh --bg-scale ~/Pictures/arch.jpg
 
 # Execute on startup
@@ -255,7 +255,8 @@ bindsym $mod+Shift+e mode "$mode_system"
 # Keybindings
 bindsym $mod+ctrl+v exec vivaldi-stable
 bindsym $mod+ctrl+e exec emacsclient -c
-bindsym $mod+ctrl+a exec emacsclient -c --eval "(calendar)" "(org-agenda-list 1)"
+bindsym $mod+ctrl+a exec emacsclient -c --eval "(org-agenda-list 1)" "(delete-other-windows)"
+# emacsclient -c --eval "(calendar)" "(org-agenda-list 1)"
 # emacsclient -c --eval "(org-agenda-list 1)" "(delete-other-windows)"
 bindsym $mod+ctrl+f exec nautilus
 

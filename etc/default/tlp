@@ -128,8 +128,8 @@ DISK_APM_LEVEL_ON_BAT="128 128"
 #   min_power, med_power_with_dipm(*), medium_power, max_performance.
 # (*) Kernel >= 4.15 required, then recommended.
 # Multiple values separated with spaces are tried sequentially until success.
-SATA_LINKPWR_ON_AC="max_performance"
-SATA_LINKPWR_ON_BAT="max_performance"
+SATA_LINKPWR_ON_AC="med_power_with_dipm max_performance"
+SATA_LINKPWR_ON_BAT="med_power_with_dipm min_power"
 
 # Exclude host devices from AHCI link power management.
 # Separate multiple hosts with spaces.
@@ -202,7 +202,7 @@ RUNTIME_PM_ON_BAT=auto
 #RUNTIME_PM_DRIVER_BLACKLIST="amdgpu nouveau nvidia radeon"
 
 # Set to 0 to disable, 1 to enable USB autosuspend feature.
-USB_AUTOSUSPEND=0
+USB_AUTOSUSPEND=1
 
 # Exclude listed devices from USB autosuspend (separate with spaces).
 # Use lsusb to get the ids.
@@ -211,7 +211,7 @@ USB_AUTOSUSPEND=0
 
 # Bluetooth devices are excluded from USB autosuspend:
 #   0=do not exclude, 1=exclude.
-USB_BLACKLIST_BTUSB=0
+USB_BLACKLIST_BTUSB=1
 
 # Phone devices are excluded from USB autosuspend:
 #   0=do not exclude, 1=exclude (enable charging).

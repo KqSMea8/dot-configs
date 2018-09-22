@@ -32,6 +32,10 @@ floating_modifier $mod
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+t exec terminator
+bindsym $mod+Shift+t exec urxvt
+for_window [instance="urxvt"] move to scratchpad
+#bindsym $mod+Shift+t exec terminator -c ttttt
+#for_window [instance="ttttt"] move to scratchpad
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -44,6 +48,7 @@ bindsym $mod+Shift+q kill
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 # start rofi
 bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+Tab exec --no-startup-id rofi -show window
 
 # change focus
 bindsym $mod+j focus left
@@ -94,6 +99,12 @@ bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+minus scratchpad show, resize set 700 500
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -173,6 +184,10 @@ mode "resize" {
 #for_window [class="^.*"] border pixel 0
 default_border pixel 0
 
+# Screen Shots
+bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
+bindsym Control+Print exec gnome-screenshot -i
+
 # Monitors
 bindsym $mod+m         exec xrandr --output HDMI-0 --off
 bindsym $mod+shift+m   exec xrandr --output HDMI-0 --auto --right-of eDP
@@ -196,6 +211,7 @@ bar {
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	mode dock
 	modifier None
+	i3bar_command i3bar -t
 
 	set $bg-color 	         #2f343f
 	set $inactive-bg-color   #2f343f
@@ -218,8 +234,9 @@ smart_gaps on
 gaps inner 5
 
 # Keyboard / background
-# exec setxkbmap -layout fi -option caps:backspace
+exec setxkbmap -layout fi -option caps:backspace
 exec_always feh --bg-scale ~/Pictures/arch.jpg
+#exec_always feh --bg-fill ~/Pictures/cabin.png
 
 # Execute on startup
 exec --no-startup-id nm-applet
@@ -227,7 +244,10 @@ exec --no-startup-id pa-applet
 exec --no-startup-id yandex-disk-indicator
 exec --no-startup-id megasync
 exec --no-startup-id redshift-gtk
-exec_always --no-startup-id xautolock -time 15 -locker ~/MEGA/bin/lock.sh
+exec_always --no-startup-id xautolock -time 10 -locker 'xset dpms force off' &
+exec_always --no-startup-id xautolock -time 15 -locker ~/MEGA/bin/lock.sh &
+#exec_always --no-startup-id xautolock -time 5 -locker "i3lock -c 000000 -n" -notify 20 -notifier 'xset dpms force off' &
+#exec_always --no-startup-id xautolock -time 15 -locker "systemctl suspend" & #Works fine, but annoying when downloading :)
 
 # lock and sleep
 set $Locker i3lock -c 000000 -n && sleep 1
@@ -255,6 +275,7 @@ bindsym $mod+Shift+e mode "$mode_system"
 # Keybindings
 bindsym $mod+ctrl+v exec vivaldi-stable
 bindsym $mod+ctrl+e exec emacsclient -c
+#for_window [class="Emacs" instance="emacs"] floating enable
 bindsym $mod+ctrl+a exec emacsclient -c --eval "(org-agenda-list 1)" "(delete-other-windows)"
 # emacsclient -c --eval "(calendar)" "(org-agenda-list 1)"
 # emacsclient -c --eval "(org-agenda-list 1)" "(delete-other-windows)"

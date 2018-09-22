@@ -1,6 +1,6 @@
 [global_config]
   borderless = True
-  title_font = Cantarell Light 13
+  title_font = Inconsolata Nerd Font Medium 16
   window_state = maximise
 [keybindings]
 [layouts]

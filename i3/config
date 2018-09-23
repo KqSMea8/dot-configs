@@ -232,8 +232,8 @@ gaps inner 5
 # Keyboard / background
 exec source ~/.xkeyboard
 #exec setxkbmap -layout fi setxkbmap -option caps:backspace -option ctrl:swap_rwin_rctl
-exec_always feh --bg-scale ~/Pictures/arch.jpg
-#exec_always feh --bg-fill ~/Pictures/cabin.png
+exec_always feh --bg-scale ~/MEGA/wallpaper/arch.jpg
+#exec_always feh --bg-fill ~/MEGA/wallpaper/cabin.png
 
 # Execute on startup
 exec --no-startup-id nm-applet
@@ -297,3 +297,19 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+# Mouse buttons
+# The middle button over a titlebar kills the window
+#bindsym --release button2 kill
+
+# The middle button and a modifer over any part of the window kills the window
+bindsym --whole-window $mod+button2 kill
+
+# The right button toggles floating
+#bindsym button3 floating toggle
+#bindsym $mod+button3 floating toggle
+
+# The side buttons move the window around
+#bindsym button9 move left
+#bindsym button8 move right
+# Middle mouse button and a modifyer toggles fullscreen
+bindsym --whole-window $mod+button1 fullscreen toggle

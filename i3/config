@@ -238,11 +238,13 @@ exec_always feh --bg-scale ~/MEGA/wallpaper/arch.jpg
 # Execute on startup
 exec --no-startup-id nm-applet
 exec --no-startup-id pa-applet
+exec --no-startup-id blueman-applet
 exec --no-startup-id yandex-disk-indicator
 exec --no-startup-id megasync
 exec --no-startup-id redshift-gtk
-exec_always --no-startup-id xautolock -time 10 -locker 'xset dpms force off' &
-exec_always --no-startup-id xautolock -time 15 -locker ~/MEGA/bin/lock.sh &
+exec --no-startup-id xautolock -time 10 -locker ~/MEGA/bin/lock.sh
+#exec_always --no-startup-id xautolock -time 1 -locker xset dpms force off
+#exec_always --no-startup-id xautolock -time 2 -locker ~/MEGA/bin/lock.sh
 #exec_always --no-startup-id xautolock -time 5 -locker "i3lock -c 000000 -n" -notify 20 -notifier 'xset dpms force off' &
 #exec_always --no-startup-id xautolock -time 15 -locker "systemctl suspend" & #Works fine, but annoying when downloading :)
 exec --no-startup-id exec urxvt
@@ -275,7 +277,8 @@ bindsym $mod+Shift+e mode "$mode_system"
 
 # Keybindings
 bindsym $mod+ctrl+v exec vivaldi-stable
-bindsym $mod+ctrl+e exec emacsclient -c
+bindsym $mod+ctrl+e exec emacs
+bindsym $mod+ctrl+d exec emacsclient -c
 #for_window [class="Emacs" instance="emacs"] floating enable
 bindsym $mod+ctrl+a exec emacsclient -c --eval "(org-agenda-list 1)" "(delete-other-windows)"
 # emacsclient -c --eval "(calendar)" "(org-agenda-list 1)"
@@ -312,4 +315,4 @@ bindsym --whole-window $mod+button2 kill
 #bindsym button9 move left
 #bindsym button8 move right
 # Middle mouse button and a modifyer toggles fullscreen
-bindsym --whole-window $mod+button1 fullscreen toggle
+bindsym --whole-window $mod+button3 fullscreen toggle

@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>New Tab</title>
+<link rel="stylesheet" type="text/css" href="min.css">
+<link rel="stylesheet" type="text/css" href="new-tab.css">
+<script src='./jquery-3.3.1.min.js'></script>
+<script src='./jquery-ui.min.js'></script>
+<script src='./analytics.js'></script>
+</head>
+<body>
+<div id="bgimage"></div>
+<script type="text/javascript" src="new-tab.js"></script>
+<div class="center-text" id="errorbox">
+  <small><i>You are not connected to the internet. Your to-do list will still work.</i></small>
+</div>
+<div class="container">
+
+  <!-- Date and Time -->
+  <div class="datetime">
+    <p id="time" class="time"><span id="hours">00</span>:<span id="min">00</span></p>
+    <p class="date"><span id="day"></span>, <span id="date" ></span></p>
+  </div>
+
+  <div class="center-text" id="blocking-resumed">
+    <p>Site blocking resumed</p>
+  </div>
+
+  <!-- Welcome Message -->
+  <div class="hide-welcome">
+      <h1 class="h-lines retro-shadow center-text welcome-h">Welcome to Prod</h1>
+      <p><strong>Read this, it won't be shown again:</strong></p>
+      <p>Thank you for using Prod, the thoughtful to-do list.</p>
+      <p><strong>Prod blocks websites you waste time on and unblocks them once you've finished your to-dos.</strong></p>
+      <p>That's the basic premise of Prod, but it has other ways of gently nudging you to be productive. Every aspect of Prod is designed to make productivity easy and time-wasting hard.</p>
+      <p>Prod will never show ads, collect personal data, or bug you for money.</br>
+      But that doesn't mean it's free &mdash; Prod has real value.</p>
+      <p>To pay for Prod, all you have to do is engage with it fully, review it, and share it with anyone you think might find it useful. That's it.</p><p class="right-text">Thanks again</br><span class="caps">&mdash; John B</span></p>
+      <div class="continue-container">
+        <a id="continue" class="continue"><span>Continue to Prod</span></a>
+      </div>
+  </div>
+
+  <!-- Blocked Site Message -->
+  <div class="hide-blocked">
+    <div class="eyes"></div>
+    <p class="eyes-message">You tried to access <span class="blockedurl"></span></br>Complete your to-do list and it will be unblocked.</p>
+  </div>
+
+  <div class="empty-list-container center-text">
+
+    <div id="empty-list">
+      <h3 class="retro-shadow">Welcome Back</h3>
+      <p>Add something to your to-do list:</p>
+    </div>
+  </div>
+
+<!-- to-do list -->
+  <div id="list" class="to-do-list-container">
+
+      <form class="add-items">
+          <input type="text" class="add-input" autocomplete="off" id="todo-list-item" placeholder="Add a to-do&hellip;">
+          <button class="add" type="submit">&#8629;</button>
+      </form>
+      <p id="finished-list"><small>Prod is not blocking any sites. Start your to-do list to block them again&hellip;</small></p>
+      <ul id="list-items" class="to-do-list"></ul>
+  </div>
+  <div id="prod" class="prod-container"></div>
+
+</div>
+
+<!-- Options -->
+<div class="options-container">
+
+  <div class="link-container">
+    <a class="go-to-website" href="https://prodtodolist.com/prods">Prod tips</a>
+  </div>
+  <div class="link-container">
+    <span id="go-to-options" class="go-to-options">options</span>
+  </div>
+  
+</div>
+</body>
+</html>

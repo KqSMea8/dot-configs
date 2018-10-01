@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Options</title>
+  <link rel="stylesheet" type="text/css" href="min.css">
+  <link rel="stylesheet" type="text/css" href="options.css">
+  <script src='./analytics.js'></script>
+</head>
+<body>
+  <div class="container">
+
+          <div class="option-container">
+            <div class="center-text"><span  class="menu-button small-lines">Pause</span></div>
+            <div class="display-options">
+
+              <div id="nothing-blocked">
+                <br>
+                <div class="center-text"><p>You haven't blocked any sites. So there's nothing to pause.</p></div>
+                <div class="center-text"><span class="diamond">&#9671;</span></div>
+              </div>
+
+              <div id="pause-active-hide">
+                <div class="eyes"><img src='images/eyes/1.jpg'/></div>
+                <div class="center-text pause1"><a class="back-to-list striped-button">Back to my to-do list</a></div>
+                <div class="center-text"><span class="diamond">&#9671;</span></div>
+                <div class="center-text"><span class="pause two" data-l="2" data-d="">2 minutes</span></div>
+                <div class="center-text"><span class="pause five" data-l="5" data-d="">5 minutes</span></div>
+                <div class="center-text"><span class="diamond five">&#9671;</span></div>
+                <div class="center-text"><span class="pause twenty" data-l="20" data-d="">20 minutes</span></div>
+                <div class="center-text"><span class="pause hour" data-l="60" data-d="">1 hour</span></div>
+                <div class="center-text"><span class="diamond hour">&#9671;</span></div>
+                <div class="center-text"><span class="pause rest-of-the-day" data-l="" data-d="true"><small>Until Tomorrow</small></span></div>
+                <div class="center-text"><span class="diamond rest-of-the-day">&#9671;</span></div>
+                <br>
+                <br>
+              </div>
+
+              <div id="pause-active-show">
+                <h4 class="center-text">Site blocking is paused</h4>
+                <p id="blocked-duration" class="center-text"></p>
+                <br>
+                <div class="center-text pause1"><a class="back-to-list striped-button">Back to my to-do list</a></div>
+                <p class="center-text"><small class="grey">Interacting with your to-do list will cause site blocking to resume.</small></p>
+                <div class="center-text"><span class="diamond rest-of-the-day">&#9671;</span></div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+
+          <div class="option-container">
+            <div class="center-text button-container"><span class="menu-button small-lines">Blocked Sites</span></div>
+            <div class="display-options">
+            <br>
+            <p>Create a list of websites. Prod will block those sites and redirect you back to your to-do list.</p>
+            <p>Once you've completed your to-do list, the sites will be unblocked.</p>
+            <br>
+              <div class="toggle-container center-text"><div id="advanced-toggle" class="toggle-button"><div id="toggler" class="toggler"></div><div class="toggle-1 caps">block a website</div><div class="toggle-2 light-grey caps">block a specific url</div></div></div>
+              <br>
+              <div class="options-fade">
+              <p id="specific-instructions" class="grey specific-instructions">You only need to enter the middle of the url:</br>e.g. <small class='caps reg'>example</small> will block both <small class='caps reg'>example.com</small> and <small class='caps reg'>example.org</small></p>
+              </div>
+              <p class="center-text status"><i id="status">Options Saved</i></p>
+
+            <form class="add-urls">
+                <input id="customurl" class="block-input" type="text" placeholder="e.g. facebook">
+                <div id="com" class="com slidingVertical">
+                  <span>.com</span>
+                  <span>.org</span>
+                  <span>.info</span>
+                  <span>.co</span>
+                  <span>.co.uk</span>
+                </div>
+                <button id="addbutton" class="add-url" type="submit">&#8629;</button>
+            </form>
+            <p id="nosites" class="center-text"><i>Use the input above to block a website</i></p>
+
+              <ul id="blockedUrlList" class="list-group"></ul>
+              <br>
+              <br>
+            </div>
+          </div>
+
+          <div class="center-text"><span class="diamond">&#9670;</span></div>
+
+
+
+            <div class="option-container">
+              <div class="center-text"><span class="menu-button small-lines">How to pay for Prod</span></div>
+              <div class="display-options">
+                <br>
+                <p>Prod will never show ads, collect personal data, or ask you for money.</p>
+			          <p>But that doesn't mean it's free &mdash; Prod has real value.</p>
+                <p>To pay for Prod, all you have to do is engage with it fully, review it on the chrome store, and share it with anyone you think might find it useful. That's it. Thank You.</p>
+                  <div class="striped-button-container">
+                    <a class="striped-button" href="https://chrome.google.com/webstore/detail/prod-to-do-list-with-a-tw/cpelgckpifnonijeenjbaglajimalpcl/reviews"><span>Review Prod</span></a>
+                  </div>
+                  <div class="striped-button-container">
+                    <a class="striped-button share-prod" href="mailto:?Subject=Prod%20&body=Prod%20-%20a%20thoughtful%20to-do%20list%20for%20Google%20Chrome%0Ahttps://chrome.google.com/webstore/detail/prod-to-do-list-with-a-tw/cpelgckpifnonijeenjbaglajimalpcl" target="_top"><span>Share Prod via email</span></a>
+                  </div>
+                  <br>
+                  <div class="center-text"><span class="diamond">&#9671;</span></div>
+                </div>
+            </div>
+
+            <div class="option-container">
+                <div class="center-text"><span class="menu-button small-lines">How Prod makes money</span></div>
+                <div class="display-options">
+                  <br>
+                  <p>Prod is designed to make your time on the internet happier and more productive.</p>
+  			           <p>That's why Prod will never: <span class="caps">show ads, sell your data, bug you to upgrade, or annoy you.</span></p>
+                   <p>For now, Prod's only source of revenue is affiliate links.<p>
+                  <br>
+
+                   <p class="center-text"><strong>Affiliate Links Explained</strong></p>
+                   <p><small>Affiliate links appear throughout the <a href="https://prodtodolist.com">website</a>, and to a lesser extent this extension.</small></p>
+                   <p><small>Clicking on one of these links will send you to a product, usually a book. If you choose to buy one of these products, Prod will receive a small percentage of the profits.</small></p>
+                   <p><small>Prod doesn't have a special deal with any of these products, or any vested interest other than the money made if you buy them.</small></p>
+                   <p><small>If there's a better product that doesn't earn Prod any money, a link to that product will be displayed instead.</small></p>
+                   <br>
+              </div>
+            </div>
+
+            <div class="center-text"><span class="diamond">&#9671;</span></div>
+
+            <div class="option-container">
+                <div class="center-text"><span class="menu-button small-lines">Colophon</span></div>
+                <div class="display-options">
+                  <br>
+                  <p>Prod uses the typeface <a href="https://mbtype.com/fonts/equity/"><span class="caps">Equity</span></a> by Mathew Butterick, author of <a href="https://practicaltypography.com/">Butterick's Practical Typography.</a></p>
+                  <p>Mathew Butterick's book was a big inspriration for the design of Prod. It's a valuable resource for anyone who works with words.</p>
+                  <br>
+                  <div class="center-text"><span class="diamond">&#9671;</span></div>
+                </div>
+            </div>
+
+            <div class="option-container">
+                <div class="center-text"><span class="menu-button small-lines">Data</span></div>
+                <div class="display-options">
+                  <br>
+                  <p>Prod uses Google Analytics. This data is anonymized and helps us find out necessary information about the app. (like how many people are using it.)</p>
+                  <p>All your to-dos and blocked sites are stored on your chrome account. Once they're deleted, they're gone forever.</p>
+                  <br>
+                </div>
+            </div>
+
+    </div>
+
+    <div class="links-container">
+
+      <div class="link-container">
+        <a href="https://chrome.google.com/webstore/detail/prod-%E2%80%94-the-thoughtful-to/cpelgckpifnonijeenjbaglajimalpcl/support" class="feedback-link" >give feedback</a>
+      </div>
+      <div class="link-container">
+        <a class="back-link back-to-list">go back</a>
+      </div>
+
+    </div>
+
+
+
+
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="moment.min.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

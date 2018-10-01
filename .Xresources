@@ -1,0 +1,2 @@
+xset s 60
+xss-lock -- xlock -mode blank -dpmsoff 5

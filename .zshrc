@@ -124,3 +124,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export PATH=$PATH{}:~/Android/Sdk/tools:~/Android/Sdk/platform-tools
 
 #setterm -blank 5
+source ~/MEGA/bin/lock.sh

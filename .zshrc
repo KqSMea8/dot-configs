@@ -103,6 +103,7 @@ alias w="cd ~/MEGA/myWritings"
 alias ll='ls -alF'
 alias r="ranger"
 alias a='et -c --eval "(org-agenda-list 1)" "(delete-other-windows)"'
+alias ac='et -c --eval "(calendar)" "(org-agenda-list 1)"'
 
 #alias ss="~/bin/suspend.sh"
 #alias sh="~/bin/hibernate.sh"

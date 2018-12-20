@@ -237,6 +237,7 @@ exec_always feh --bg-fill ~/MEGA/wallpaper/arch.jpg
 #exec_always feh --bg-fill ~/MEGA/wallpaper/cabin.png
 
 # Execute on startup
+exec --no-startup-id synclient VertEdgeScroll=1 HorizEdgeScroll=1 TapButton1=1 TapButton2=1 TapButton3=1
 exec --no-startup-id nm-applet
 exec --no-startup-id pa-applet
 #exec --no-startup-id blueman-applet

@@ -204,7 +204,7 @@ font pango:mono 11
 bar {
 	output eDP
 	position top
-	font pango:monospace, otf-font-awesome 12
+	font pango:mono, otf-font-awesome 12
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	mode dock
 	modifier None
@@ -281,6 +281,7 @@ bindsym $mod+Shift+e mode "$mode_system"
 
 # Keybindings
 bindsym $mod+ctrl+v exec vivaldi-stable
+#bindsym $mod+Shift+k exec source ~/.xkeyboard
 bindsym $mod+ctrl+e exec emacs
 bindsym $mod+ctrl+d exec emacsclient -c
 #for_window [class="Emacs" instance="emacs"] floating enable

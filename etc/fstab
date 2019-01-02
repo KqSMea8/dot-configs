@@ -1,14 +1,14 @@
-# /dev/sda1
-UUID=39F5-A158      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+# /dev/sda2
+UUID=be8a4292-beff-4789-ab77-d2304b9e6610	/         	ext4      	rw,relatime	0 1
 
-# /dev/sda2 LABEL=Arch
-UUID=a4928b52-be35-4d47-9317-a6d412d7c6bc	/         	btrfs     	rw,noatime,nodiratime,compress=lzo,space_cache,autodefrag,subvolid=5,subvol=/	0 0
+# /dev/sda1
+UUID=A447-E92F      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
 
 # /dev/sda3
-UUID=05a4393f-0f44-4af2-9282-4d702e31354d	none      	swap      	defaults,pri=-2	0 0
+UUID=143406fc-5a3b-492c-8a89-a9f37e8d0a98	none      	swap      	defaults,pri=-2	0 0
 
 # /dev/sda4
-UUID=c8e4378d-b7e5-45a2-96bd-b13ecdee5079	/home     	btrfs      	defaults,noatime,nodiratime,autodefrag 0 0
+UUID=611c1ccf-2f4b-40e3-add0-a48fabb04373	/home     	ext4      	rw,relatime	0 2
 
 # /dev/sdb1
-UUID=b2e33bb4-ec23-4ec9-b55b-8677c4208d75	/mnt/320GB	btrfs		defaults,noatime,nodiratime,compress=lzo,autodefrag 0 0
+UUID=e2cea258-c3e6-41a3-a2dd-2e9528a868ef	/mnt/320GB	ext4		rw,relatime	0 2

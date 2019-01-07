@@ -231,7 +231,7 @@ smart_gaps on
 gaps inner 7
 
 # Keyboard / background
-exec source ~/.xkeyboard
+#exec source ~/.xkeyboard
 #exec setxkbmap -layout fi setxkbmap -option caps:backspace -option ctrl:swap_rwin_rctl
 exec_always feh --bg-fill ~/MEGA/wallpaper/arch.jpg
 #exec_always feh --bg-fill ~/MEGA/wallpaper/cabin.png

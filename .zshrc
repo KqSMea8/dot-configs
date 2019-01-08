@@ -123,8 +123,11 @@ if [[ $TERMINIX_ID ]]; then
 fi
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-export PATH=$PATH{}:~/Android/Sdk/tools:~/Android/Sdk/platform-tools
+#export PATH="$PATH:$HOME/.rvm/bin"
+#export PATH=$PATH{}:~/Android/Sdk/tools:~/Android/Sdk/platform-tools
 
 #setterm -blank 5
 #source ~/MEGA/bin/lock.sh
+
+PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin"
+export GEM_HOME=$HOME/.gem

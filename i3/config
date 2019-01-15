@@ -281,7 +281,7 @@ bindsym $mod+Shift+e mode "$mode_system"
 
 # Keybindings
 bindsym $mod+ctrl+v exec vivaldi-stable
-#bindsym $mod+Shift+k exec source ~/.xkeyboard
+bindsym $mod+ctrl+k exec source ~/.xkeyboard
 bindsym $mod+ctrl+e exec emacs
 bindsym $mod+ctrl+d exec emacsclient -c
 #for_window [class="Emacs" instance="emacs"] floating enable

@@ -112,7 +112,7 @@ alias ss="systemctl suspend"
 alias sh="systemctl hibernate"
 alias sa="systemctl hybrid-sleep"
 
-alias gpsmaster="java -jar bin/GpsMaster_0.63.00.jar"
+alias gpsmaster="java -jar bin/GpsMaster_0.63.20.jar"
 
 #export PATH="$HOME/.rbenv/bin:$PATH"
 #eval "$(rbenv init -)"

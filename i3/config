@@ -280,7 +280,7 @@ mode "$mode_system" {
 bindsym $mod+Shift+e mode "$mode_system"
 
 # Keybindings
-bindsym $mod+ctrl+v exec vivaldi-stable
+bindsym $mod+ctrl+v exec vivaldi-snapshot
 bindsym $mod+ctrl+k exec source ~/.xkeyboard
 bindsym $mod+ctrl+e exec emacs
 bindsym $mod+ctrl+d exec emacsclient -c

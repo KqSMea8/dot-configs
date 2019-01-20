@@ -1,0 +1,41 @@
+{
+   "author": "Prod",
+   "background": {
+      "scripts": [ "moment.min.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "Icons/icon16.png",
+         "24": "Icons/icon24.png",
+         "32": "Icons/icon32.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Prod"
+   },
+   "chrome_url_overrides": {
+      "newtab": "new-tab.html"
+   },
+   "content_scripts": [ {
+      "js": [ "purify.min.js", "jquery-3.3.1.min.js", "new-tab.js" ],
+      "matches": [ "*://*/_/chrome/newtab*" ]
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Prod blocks websites you waste time on and unblocks them once you've finished your to-do list.",
+   "homepage_url": "http://prodtodolist.com/",
+   "icons": {
+      "128": "Icons/icon128.png",
+      "16": "Icons/icon16.png",
+      "32": "Icons/icon32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkSIMXKgG1tzu2/5ItQDE0YZWCG+qiBpEv1vSvAhPGOTcDhcV/c+SOrHiLkmp4Ae3uh0tmnUOYiWU393ZUBqCNvt84V8gzyXXI1pORN114GMBtYzre4fQtUC/m/Wyqs+84TzEn4ggqic3GM5AzmW2s+sWpCg8lxwth+pe9opwoebLJnfdUE7pV4TO00hl8JRtONXT+EWJUuM6Y5g+HVyX/nTdzIi2r62AkfuNRxeidbrHAbmTUGbqflRuLZao7uyAQXmmiLQeWeLFFSPjVCF+gvZIU6Cs3j/q7fBcNlFO5gFzFHhiLqQ9hWZQaIPKjGHLTTHINOx/ovfcjgZySBjuDwIDAQAB",
+   "manifest_version": 2,
+   "name": "Prod — a thoughtful to-do list",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "webRequest", "http://*/*", "https://*/*", "webRequestBlocking", "tabs", "storage" ],
+   "short_name": "Prod",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.7",
+   "web_accessible_resources": [ "new-tab.html" ]
+}

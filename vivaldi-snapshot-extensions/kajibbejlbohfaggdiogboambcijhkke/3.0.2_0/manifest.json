@@ -1,0 +1,36 @@
+{
+   "background": {
+      "scripts": [ "background.bundle.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "img/cryptography-icon16.png",
+         "24": "img/cryptography-icon24.png",
+         "32": "img/cryptography-icon32.png",
+         "48": "img/cryptography-icon48.png"
+      },
+      "default_popup": "components/action-menu/actionMenu.html",
+      "default_title": "__MSG_ext_name__"
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self'; frame-src 'self';",
+   "default_locale": "en",
+   "description": "__MSG_ext_description__",
+   "homepage_url": "https://www.mailvelope.com",
+   "icons": {
+      "128": "img/mail_locked_128.png",
+      "16": "img/encrypt-16.png",
+      "48": "img/mail_locked_48.png",
+      "64": "img/mail_locked_64.png",
+      "96": "img/mail_locked_96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6cil9vZXuPpLggrRoCG6Izmr/JaK96ys30KNSmVoKP+Ta3cDtzcebOBelb7DFYrHE1A35aasRn/oVW59mZyPSvmrn5EVCfV1lwCW4vMiWBZJM9vWPMonqzL22OxoxdDVP9BmS4yx2YTDzgO+Pw3WQvADs/4+qevcfJScYfndfLwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "60",
+   "name": "__MSG_ext_name__",
+   "optional_permissions": [ "nativeMessaging" ],
+   "options_page": "app/app.html",
+   "permissions": [ "*://*/*", "storage", "tabs", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.2",
+   "web_accessible_resources": [ "app/app.html", "client-API/mailvelope-client-api.js", "components/decrypt-message/decryptMessage.html", "components/verify-inline/verifyInline.html", "components/generate-key/keyGenDialog.html", "components/key-backup/keyBackupDialog.html", "components/restore-backup/restoreBackupDialog.html", "components/editor/editor.html", "components/encrypted-form/encryptedForm.html", "components/verify-inline/verifyInlineSig.css", "content-scripts/framestyles.css", "dep/bootstrap/css/bootstrap.css", "dep/bootstrap4/css/bootstrap.css", "dep/bootstrap/fonts/glyphicons-halflings-regular.ttf", "dep/bootstrap/fonts/glyphicons-halflings-regular.woff", "dep/bootstrap/fonts/glyphicons-halflings-regular.woff2", "img/edit_add-22.png", "img/key-24.png", "img/key-icon-blue96.png", "img/loading.gif", "img/mail_locked_96.png", "img/mail_signed_96.png", "img/mail_open_96.png", "img/mail_new.png", "img/ok48.png", "img/verify-24.png", "mvelo.css" ]
+}

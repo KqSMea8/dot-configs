@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>New Tab</title>
+<link rel="stylesheet" type="text/css" href="min.css">
+<link rel="stylesheet" type="text/css" href="popup.css">
+<script src='./jquery-3.3.1.min.js'></script>
+<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div id="welcome-popup">
+    <h3 class="center-text h-lines retro-shadow">Welcome</h3>
+    <div class="continue-container">
+      <a class="continue" id="launch">
+        Launch Prod
+      </a>
+    </div>
+  </div>
+
+  <div id="add-to-list">
+    <form class="add-items">
+      <input type="text" class="add-input" autocomplete="off" id="todo-list-item-popup" placeholder="Add a to-do&hellip;">
+      <button class="add" type="submit">&#8629;</button>
+    </form>
+    <p id="finished-list-popup"><small>&hellip; to start blocking your time-wasting sites.</small></p>
+    <p id="taskCount"><small>You have <span id="count"></span> to-do<span id="s">s</span></small></p>
+    <div class="continue-container">
+      <a id="open-new-tab" class="continue new-tab">
+        Open to-do list
+      </a>
+    </div>
+  </div>
+
+
+    <div id="show-options" class="continue-container options-container">
+      <p id="blocked-message"></p>
+      <a class="continue" id="open-options">
+        Options
+      </a>
+    </div>
+
+    <div id="pay-for-prod">
+      <h4 class="center-text h-lines retro-shadow">How to pay for Prod</h4>
+        <p>Prod will never show ads, collect personal data, or ask you for money.</p>
+         <p>But that doesn't mean it's free &mdash; Prod has real value.<p>
+        <p>To pay for Prod, all you have to do is engage with it fully, review it on the chrome store, and share it with anyone you think might find it useful.</br>Thank You.</p>
+      <div class="continue-container">
+      <a class="continue" target="_blank" href="https://chrome.google.com/webstore/detail/prod-%E2%80%94-a-thoughtful-to-do/cpelgckpifnonijeenjbaglajimalpcl/reviews"><span>Review Prod</span></a>
+      </div>
+
+      <div class="continue-container">
+      <a class="continue" href="mailto:?subject=Prod%20%E2%80%94%C2%A0a%20thoughtful%20to-do%20list%20Google%20Chrome%20and%20Firefox&body=You%20were%20sent%20this%20email%20from%20someone%20who%20thinks%20you'd%20enjoy%20Prod%20%E2%80%94%0Ahttps%3A%2F%2Fprodtodolist.com" target="_blank"><span>Share Prod via email</span></a>
+      </div>
+    </div>
+</body>
+</html>

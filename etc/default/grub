@@ -51,4 +51,4 @@ GRUB_BACKGROUND="/boot/grub/themes/arch.jpg"
 
 # Uncomment to make GRUB remember the last selection. This requires to
 # set 'GRUB_DEFAULT=saved' above.
-#GRUB_SAVEDEFAULT="false"
+GRUB_SAVEDEFAULT="false"

@@ -108,8 +108,8 @@ alias ac='et -c --eval "(calendar)" "(org-agenda-list 1)"'
 
 #alias ss="~/bin/suspend.sh"
 #alias sh="~/bin/hibernate.sh"
-alias ss="systemctl suspend"
-alias sh="systemctl hibernate"
+alias ss="sudo ~/MEGA/bin/suspend.sh"
+alias sh="sudo ~/MEGA/bin/hibernate.sh"
 alias sa="systemctl hybrid-sleep"
 
 alias gpsmaster="java -jar bin/GpsMaster_0.63.20.jar"

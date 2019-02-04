@@ -258,6 +258,7 @@ for_window [instance="urxvt"] move to scratchpad
 # lock and sleep
 #set $Locker i3lock -c 000000 -n && sleep 1
 set $Locker xlock -mode blank
+#set $Locker physlock
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (a) suspend-then-hibernate (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
@@ -280,6 +281,8 @@ mode "$mode_system" {
 bindsym $mod+Shift+e mode "$mode_system"
 
 # Keybindings
+bindsym $mod+ctrl+h exec ~/MEGA/bin/hibernate.sh
+bindsym $mod+ctrl+s exec ~/MEGA/bin/suspend.sh
 bindsym $mod+ctrl+v exec vivaldi-snapshot
 bindsym $mod+ctrl+k exec source ~/.xkeyboard
 bindsym $mod+ctrl+e exec emacs

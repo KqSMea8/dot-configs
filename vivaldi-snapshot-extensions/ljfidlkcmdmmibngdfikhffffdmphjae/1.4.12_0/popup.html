@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Social Book Post Manager</title>
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery.ui.theme.css">
+    <link rel="stylesheet" href="jquery.dropdown.min.css">
+    <style>
+      body {
+        font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+        font-size: 100%;
+        margin: 10px 10px 10px 10px;
+        width: 560px;
+        height: 580px;
+      }
+
+      div.panel {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 560px;
+      }
+      
+      div.heading-block {
+        background-color: blue;
+        padding: 5px 5px 5px 5px;
+      }
+
+      span.heading {
+        font-weight: bolder;
+        font-size: 125%;
+        color: white;
+      }
+
+      .highligted {
+        background-color: yellow;
+      }
+
+      div.content_row {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      div.cell {
+        display:inline-block;
+      }
+
+      div.cell.first {
+        font-weight: bold;
+        width: 155px;
+        padding-right: 10px;
+        vertical-align: top;
+      }
+
+      select.cell_content {
+        width: 354px;
+      }
+
+      input[type="text"].cell_content {
+        width: 350px;
+      }
+
+      div.star_note {
+        width: 5px; margin-top: 2px; vertical-align: top
+      }
+
+      div.star_content {
+        width: 520px; margin-bottom: 5px;
+      }
+
+      div.star_content:last-of-type {
+        margin-bottom: auto !important;
+      }
+
+      div.foot_note {
+        font-size: 75%;
+      }
+
+      div.myDialog {
+	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	font-size: 75%;
+      }
+
+      div.hiddenDialog {
+	display: none;
+      }
+
+      .no-close .ui-dialog-titlebar-close {
+        display: none
+      }
+    </style>
+
+    <script src="jquery-1.10.2.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery.dropdown.min.js"></script>
+    <script src="math.js"></script>
+    <script src="ext-popup.js"></script>
+
+  </head>
+  <body>
+      <div class="panel">
+        <div class="heading-block">
+          <span class="heading">Social Book Post Manager</span>
+        </div>
+        <div class="content_row">
+          <p>Please navigate to your Social Book Activity Log, and choose a specific filter (on the left of the page).</p>
+          <p>When the extension is running, DO NOT scroll nor click anywhere within the Social Book page.</p>
+          <p>If not working, disable/uninstall all other Chrome extensions, clear the cache, reinstall this extension, restart your browser, then try again. And you can also try a lower speed.</p>
+        </div>
+        <div class="content_row">
+          <div class="cell first">Year</div>
+          <div class="cell">
+            <select id="year" class="cell_content">
+              <option value="">--------------------------------- Select All ---------------------------------</option>
+              <option value="2019" selected="true">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+            <select>
+          </div>
+        </div>
+        <div class="content_row" style="margin-top: 5px;">
+          <div class="cell first">Month</div>
+          <div class="cell">
+            <select id="month" class="cell_content">
+              <option value="" selected="true">--------------------------------- Select All ---------------------------------</option>
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="4">April</option>
+              <option value="5">May</option>
+              <option value="6">June</option>
+              <option value="7">July</option>
+              <option value="8">August</option>
+              <option value="9">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            <select>
+          </div>
+        </div>
+        <div class="content_row" style="margin-top: 5px;">
+          <div class="cell first">Text Contains</div>
+          <div class="cell">
+            <input type="text" id="textContains" class="cell_content" title="Specify text string (no wildcard, no special characters, no regex) which the post should contain. Optional, leave blank if not needed." />
+          </div>
+        </div>
+        <div class="content_row" style="margin-top: 5px;">
+          <div class="cell first">Text Not Contains</div>
+          <div class="cell">
+            <input type="text" id="textNotContains" class="cell_content" title="Specify text string (no wildcard, no special characters, no regex) which the post should NOT contain. Optional, leave blank if not needed." />
+            <div style="font-size: 75%; width: 350px;">You may use and/or operators in the above two fields.</div>
+          </div>
+        </div>
+        <div class="content_row" style="margin-top: 5px;">
+          <div class="cell first">Prescan on Page</div>
+          <div class="cell">
+            <input type="checkbox" id="prescanCheckbox" class="cell_content" style="margin: 0px;" title="Prescan the activity log. Confirmation required before the actual operations." />
+            <div style="font-size: 75%; width: 340px; display: inline-block">Uncheck if you don't need to preview the result on screen.</div>
+          </div>
+        </div>
+        <div class="content_row" style="margin-top: 5px;">
+          <div class="cell first">Speed</div>
+          <div class="cell">
+            <select id="delayFactor" class="cell_content">
+              <option value="1">Speed 16x</option>
+              <option value="2">Speed 8x</option>
+              <option value="4" selected="true">Speed 4x (default)</option>
+              <option value="8">Speed 2x</option>
+              <option value="16">Speed 1x</option>
+              <option value="32">Speed 0.5x</option>
+              <option value="64">Speed 0.25x</option>
+            <select>
+            <br/>
+            <div style="font-size: 75%; width: 350px;">Choose a lower speed, if the extension skips through many posts, or posts are not actually deleted/altered on Social Book server.</div>
+          </div>
+        </div>
+        <div class="content_row" style="margin-top:10px; margin-bottom: 10px;">
+          <button id="deleteButton" type="button" disabled="true" style="float:left; font-weight:bold;">Delete</button>
+          <button id="privacyButton" type="button" disabled="true" style="float:left; font-weight:bold; margin-left: 10px;" data-jq-dropdown="#privacy-buttons" title="Social Book UI changed. Please wait for a next update of this extension.">Privacy</button>
+          <button id="toggleButton" type="button" disabled="true" style="float:left; font-weight:bold; margin-left: 10px;" data-jq-dropdown="#hide-unhide-buttons">Hide/Unhide</button>
+          <button id="unlikeButton" type="button" disabled="true" style="float:left; font-weight:bold; margin-left: 10px;">Unlike</button>
+          <button id="backupButton" type="button" style="float:left; font-weight:bold; margin-left: 10px;">Backup</button>
+          &nbsp;&nbsp;
+        </div>
+        <div class="content_row foot_note">
+          <div class="cell star_note">*</div>
+          <div class="cell star_content">Deleted posts cannot be recovered. By using the extension, you agree that the author shall not be responsible for any loss due to post deletion.</div>
+        </div>
+        <div class="content_row foot_note">
+          <div class="cell star_note">*</div>
+          <div class="cell star_content">You may need to run the extension several times in order to delete all the posts you would like to delete.</div>
+        </div>
+      </div>
+
+    <div id="dialog-message" class="myDialog hiddenDialog" title="dialog-message-title">
+      <p>
+        <span id="dialog-message-content"></span>
+      </p>
+    </div>
+
+    <div id="dialog-confirm" class="myDialog hiddenDialog" title="dialog-confirm-title">
+      <p>
+        <span id="dialog-confirm-content"></span>
+      </p>
+    </div>
+
+    <div id="privacy-buttons" class="jq-dropdown jq-dropdown-tip" style="width: 50px;">
+      <ul class="jq-dropdown-menu">
+        <li><a id="prvPublicButton" href="#4">Public</a></li>
+        <li><a id="prvFriendsButton" href="#5">Friends</a></li>
+        <li><a id="prvOnlyMeButton" href="#6">Only Me</a></li>
+      </ul>
+    </div>
+
+    <div id="hide-unhide-buttons" class="jq-dropdown jq-dropdown-tip" style="width: 50px;">
+      <ul class="jq-dropdown-menu">
+        <li><a id="hideButton" href="#1">Hide</a></li>
+        <li><a id="unhideButton" href="#2">Unhide</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+

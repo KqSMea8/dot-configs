@@ -253,6 +253,7 @@ exec --no-startup-id ~/MEGA/bin/lock.sh
 #exec_always --no-startup-id xautolock -time 15 -locker "systemctl suspend" & #Works fine, but annoying when downloading :)
 exec --no-startup-id exec urxvt
 for_window [instance="urxvt"] move to scratchpad
+exec --no-startup-id thunar --daemon
 
 
 # lock and sleep
@@ -291,7 +292,7 @@ bindsym $mod+ctrl+d exec emacsclient -c
 bindsym $mod+ctrl+a exec emacsclient -c --eval "(org-agenda-list 1)" "(delete-other-windows)"
 # emacsclient -c --eval "(calendar)" "(org-agenda-list 1)"
 # emacsclient -c --eval "(org-agenda-list 1)" "(delete-other-windows)"
-bindsym $mod+ctrl+f exec nautilus
+bindsym $mod+ctrl+t exec thunar
 bindsym $mod+b exec blueman-applet
 
 # Pulse Audio controls

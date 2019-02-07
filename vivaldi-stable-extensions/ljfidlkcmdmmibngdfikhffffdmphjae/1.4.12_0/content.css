@@ -1,0 +1,25 @@
+#chrome-extention-relative-paths {}
+
+.content-highlighter {
+  background: yellow;
+}
+
+div.hiddenDialog {
+  display: none;
+}
+
+div.myDialog.hiddenDialog {
+  font-size: 150%;
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none
+}
+
+.ui-dialog-title{
+  font-size: 170% !important;
+}
+
+.ui-button-text {
+  font-size: 150% !important;
+}

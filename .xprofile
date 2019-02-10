@@ -1,1 +1,2 @@
-setxkbmap -layout fi -option caps:backspace -option ctrl:swap_rwin_rctl
+setxkbmap -layout fi -option caps:backspace -option ctrl:swap_rwin_rctl &
+xscreensaver &

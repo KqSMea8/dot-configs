@@ -244,7 +244,7 @@ exec --no-startup-id pa-applet
 exec --no-startup-id yandex-disk-indicator
 exec --no-startup-id megasync
 exec --no-startup-id redshift-gtk
-exec --no-startup-id ~/MEGA/bin/lock.sh
+#exec --no-startup-id ~/MEGA/bin/lock.sh
 #exec --no-startup-id xautolock -time 10 -locker ~/MEGA/bin/lock.sh
 #exec --no-startup-id sleep 6 ~/MEGA/bin/blank.sh
 #exec_always --no-startup-id xautolock -time 1 -locker xset dpms force off
@@ -253,7 +253,7 @@ exec --no-startup-id ~/MEGA/bin/lock.sh
 #exec_always --no-startup-id xautolock -time 15 -locker "systemctl suspend" & #Works fine, but annoying when downloading :)
 exec --no-startup-id exec urxvt
 for_window [instance="urxvt"] move to scratchpad
-exec --no-startup-id thunar --daemon
+#exec --no-startup-id pcmanfm -d
 
 
 # lock and sleep
@@ -292,7 +292,7 @@ bindsym $mod+ctrl+d exec emacsclient -c
 bindsym $mod+ctrl+a exec emacsclient -c --eval "(org-agenda-list 1)" "(delete-other-windows)"
 # emacsclient -c --eval "(calendar)" "(org-agenda-list 1)"
 # emacsclient -c --eval "(org-agenda-list 1)" "(delete-other-windows)"
-bindsym $mod+ctrl+t exec thunar
+bindsym $mod+f exec pcmanfm
 bindsym $mod+b exec blueman-applet
 
 # Pulse Audio controls
